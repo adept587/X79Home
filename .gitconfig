@@ -1,0 +1,7 @@
+[credential]
+	helper = manager
+[user]
+	email = adept587@icloud.com
+	name = adept587
+[core]
+	excludesfile = C:/Users/Home/.gitignore_global

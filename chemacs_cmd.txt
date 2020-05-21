@@ -1,0 +1,19 @@
+'change emacs profile' 
+
+PS: @ C:\Users\Home  PS cd ~
+utf-16le
+
+echo 'doom' > ./.emacs-profile
+
+echo 'default' > ./.emacs-profile
+
+echo 'spacemacs' > ./.emacs-profile
+
+
+CLI: @ C:\Users\Home    $ cd %home%
+utf-8
+
+echo doom > ./.emacs-profile
+
+echo default > ./.emacs-profile
+

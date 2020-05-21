@@ -1,0 +1,22 @@
+
+## C:\Users\Home\scoop Failed! only relative path work
+## \ : backslash not work, Only / slash work same as @unix
+# *
+# !.config/**/*
+# !.*
+# !.emacs.d/**/*
+# !.doom.d/**/*
+# !default/
+# !default/**/*
+# !chemacs/
+# !chemacs/**/*
+AppData
+doom-emacs
+scoop
+!.*
+!.*/**/*
+!.emacs.d/**/*
+# chemacs Git repo 時，有下載了 .git folder, 導致無法納入 本地的 repo
+#!chemacs/
+#!chemacs/**/*
+chemacs
