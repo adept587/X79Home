@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Git %Home%</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>Git %Home%</underline>
+ 2020-05-26 13:17:07 
+
+0521 已經建立了 https://github.com/adept587/X79Home.git
+<list><list-item dir="ltr">clone 到 D:\X97Home , 將 .git 目錄，與 git &amp; chemacs 的相關檔案 均複製到目前的 %Home% [ D:\_Home ]</list-item></list>
+<list><list-item dir="ltr">在 %Home% 開啓 Git-Bash, git init</list-item></list>
+<list><list-item dir="ltr">open D:\Data\x79Home.code-workspace @VSCode</list-item></list>
+<list><list-item dir="ltr">VSCode 找不到 git.exe</list-item></list>
+  VSCode/<highlight>Preference/setting</highlight>  Find: <highlight>git.path</highlight>
+  @settings.json +  "git.path": "D:\\_Home\\scoop\\apps\\git\\  current\\bin\\git.exe"
+  Re-Open VSCode, Git OK !
+<list><list-item dir="ltr">@VSCode stage=&gt;commit=&gt;push</list-item></list>
+</note-content></text>
+  <last-change-date>2020-05-26T13:27:21.5860000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-26T13:27:21.5860000+08:00</last-metadata-change-date>
+  <create-date>2020-05-26T13:27:21.5860000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>617</width>
+  <height>497</height>
+  <x>551</x>
+  <y>327</y>
+  <open-on-startup>False</open-on-startup>
+</note>

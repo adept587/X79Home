@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Tomboy-ng</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>Tomboy-ng</underline>
+2020-05-25 11:03:02.835- Note Taking 跨平台 
+@ Cloud_Storage
+
+Home:
+https://wiki.gnome.org/Apps/Tomboy/tomboy-ng 
+https://github.com/tomboy-notes/tomboy-ng
+
+Tomboy XML Note Format
+https://wiki.gnome.org/Apps/Tomboy/NoteXmlFormat
+
+Hotkeytb
+<highlight>ctrl+M</highlight>：將目前頁面帶入 Markdown Exporter
+
+<highlight><bold>MacOSX</bold></highlight>
+DL@ https://github.com/tomboy-notes/tomboy-ng/releases/download/v0.28/tomboy-ng64_0.28a.dmg 
+Tested on a Mac Sierra Powerbook. Use the 64bit (Cocoa) DMG file.Install by double clicking the .dmg file and drag the tomboy-ng icon into the nearby Applications Folder.
+
+Note 1 : Because I don't pay a fee to Apple, first time users will need to control click (that is, hold the Control Key down and click) the tomboy-ng icon in Applications and select "Open".
+</note-content></text>
+  <last-change-date>2020-05-27T00:32:35.1680000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-27T00:32:35.1680000+08:00</last-metadata-change-date>
+  <create-date>2020-05-25T11:08:04.8660000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>617</width>
+  <height>497</height>
+  <x>551</x>
+  <y>327</y>
+  <tags>
+    <tag>system:notebook:Note Taking</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

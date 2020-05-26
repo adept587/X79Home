@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Cloud Services</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>Cloud Services</underline>
+ 2020-05-25 23:21:54 
+
+Install Cloud Utilities : **<strikeout> Locate@ Users/Shared/</strikeout> @D:\Cloud_macro
+
+D:\Apps_DL\DropboxInstaller.exe
+【DL】https://www.dropbox.com/install
+ /m/ac: jkvegan@gmail.com //niko rBD db, 
+
+D:\Apps_DL\installbackupandsync.exe
+【DL】https://www.google.com/intl/zh-TW_ALL/drive/download/backup-and-sync/
+ /m/ac: jkvegan@gmail.com //Niko bd jgm
+
+D:\Apps_DL\MEGAsyncSetup.exe
+ 【DL】https://mega.nz/sync
+ /m/ac: quants@outlook.com //mgNiko rBDbd
+
+OneDrive: /s 【Windows 10 default】
+ /s/m/ac: ccjim@msn.com //niko bd
+
+D:\Apps_DL\pCloud_Windows_3.9.2_x86.exe
+ 【DL】 /m/ac: jkyk@outlook.com //jk7003019
+
+</note-content></text>
+  <last-change-date>2020-05-26T01:18:08.0550000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-26T01:18:08.0550000+08:00</last-metadata-change-date>
+  <create-date>2020-05-25T23:49:21.1720000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>661</width>
+  <height>611</height>
+  <x>96</x>
+  <y>195</y>
+  <tags>
+    <tag>system:notebook:Working</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -5,3 +5,5 @@
 	name = adept587
 [core]
 	excludesfile = C:/Users/Home/.gitignore_global
+[gui]
+	recentrepo = D:/Data/X79Home

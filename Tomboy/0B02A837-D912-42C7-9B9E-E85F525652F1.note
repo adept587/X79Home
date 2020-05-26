@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>The Org Manual</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>The Org Manual</underline>
+ 2020-05-25 20:02:53 
+https://orgmode.org/org.html
+
+Org-mode Workflow for GTD and Note-taking: a 3-part Series : orgmode
+https://www.reddit.com/r/orgmode/comments/ecu1py/orgmode_workflow_for_gtd_and_notetaking_a_3part/
+
+
+Org-mode Workflow: A Preview · Jethro Kuan
+https://blog.jethro.dev/posts/org_mode_workflow_preview/
+
+Org-mode Workflow Part 1: Capturing in the Inbox · Jethro Kuan
+https://blog.jethro.dev/posts/capturing_inbox/
+
+Org-mode Workflow Part 2: Processing the Inbox · Jethro Kuan
+https://blog.jethro.dev/posts/processing_inbox/
+
+Org-mode Workflow Part 3: Zettelkasten with Org-mode · Jethro Kuan
+https://blog.jethro.dev/posts/zettelkasten_with_org/
+
+Org-mode Workflow Part 4: Automatic Web Publishing · Jethro Kuan
+https://blog.jethro.dev/posts/automatic_publishing/
+
+How To Take Smart Notes With Org-mode · Jethro Kuan
+https://blog.jethro.dev/posts/how_to_take_smart_notes_org/
+
+Prettier post :
+Org-mode Workflow Part 2: Processing the Inbox - EMACS-DOCUMENT
+http://blog.lujun9972.win/emacs-document/blog/2020/01/14/org-mode-workflow-part-2-processing-the-inbox/index.html
+
+Org-mode Workflow Part 3: Zettelkasten with Org-mode - EMACS-DOCUMENT
+http://blog.lujun9972.win/emacs-document/blog/2020/01/14/org-mode-workflow-part-3-zettelkasten-with-org-mode/index.html
+
+
+
+</note-content></text>
+  <last-change-date>2020-05-25T20:30:30.8200000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-25T20:30:30.8200000+08:00</last-metadata-change-date>
+  <create-date>2020-05-25T20:30:30.8200000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>617</width>
+  <height>497</height>
+  <x>1019</x>
+  <y>508</y>
+  <tags>
+    <tag>system:notebook:Emacs</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

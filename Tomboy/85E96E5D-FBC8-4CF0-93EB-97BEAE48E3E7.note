@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>快速開啟win10系統中自動學習功能</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>快速開啟win10系統中自動學習功能</underline>
+ 2020-05-25 13:22:30 
+
+2017-05-18 由 隨心分享Share 發表于科技
+原文網址： 
+https://kknews.cc/tech/q22l3gb.html
+
+win10自带微软输入法不能开启自学习（灰色） 10
+https://zhidao.baidu.com/question/629949758005786364.html
+为了能让微软拼音输入法有自学习功能，这个“向Microsoft 发送有关我的写作习惯的信息，
+以便在未来改进和键入和写入功能”灰色无法开启？
+网上搜索答案都是需要开启此选项，可是我这个选项是灰色的怎么办？如图所示
+
+腾讯电脑管家
+百度知道官方认证企业 2018-07-24
+步骤：
+1、当前<highlight>使用微软账户登</highlight>录；
+2、按下【win+i】打开设置，拉到下面点击【隐私】；
+3、在左侧点击【语音、墨迹书写和键入】，在右侧点击“了解我”，在弹出的提内示框中点击“打开”即可
+4、在在弹出的提示中点击【打开】；
+设置完成后重新打开微软输入法设置界面进行设置即可将“容动态词频调整”打开。
+
+
+</note-content></text>
+  <last-change-date>2020-05-25T13:51:16.6770000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-25T13:51:16.6770000+08:00</last-metadata-change-date>
+  <create-date>2020-05-25T13:51:16.6770000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>723</width>
+  <height>504</height>
+  <x>73</x>
+  <y>446</y>
+  <tags>
+    <tag>system:notebook:Note Taking</tag>
+    <tag>system:notebook:Working</tag>
+    <tag>system:notebook:Template</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

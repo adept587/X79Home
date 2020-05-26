@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>FARR</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>FARR</underline>
+
+Find and Run Robot - DonationCoder.com
+https://www.donationcoder.com/software/mouser/popular-apps/farr
+
+Find and Run Robot (FARR) is a program for keyboard maniacs -- it uses an adaptive "live search" function to rapidly find programs and documents on your computer as you type.
+
+Option 設定 畫面 按右鍵 均有 Context Menu，可以加減選項設定。
+
+<list><list-item dir="ltr">search folder :</list-item></list>
+  + D:\App_potable , D:\_Home
+   Check All selections
+<list><list-item dir="ltr">Hotkey : + Alt-Space</list-item></list>
+
+</note-content></text>
+  <last-change-date>2020-05-25T22:32:29.9320000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-25T22:32:29.9320000+08:00</last-metadata-change-date>
+  <create-date>2020-05-25T22:28:17.7450000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>617</width>
+  <height>497</height>
+  <x>492</x>
+  <y>389</y>
+  <open-on-startup>False</open-on-startup>
+</note>

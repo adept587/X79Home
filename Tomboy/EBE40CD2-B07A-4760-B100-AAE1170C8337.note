@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Karabiner-Goku</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>Karabiner-Goku</underline>
+
+
+
+32. Install Goku &amp; setup my karabiner-element
+     ** record in Notes &amp; GWNotes -=&gt; Typora
+
+
+7. Install Karabiner-Elements /m w/Karabiner-EventViewer.app
+   **【DL】https://pqrs.org/osx/karabiner/
+   ** configure@ /Users/jasonshih/.config/karabiner/assets/complex_modifications/My_Space.json
+   = Finder=&gt;【Comm+Shift+G】Go toFolder “/Users/jasonshih/.config/”
+   ** configure 備份於：/Users/jasonshih/Aware/complex_modifications
+   ** /Users/jasonshih/Aware/complex_modifications/Screen Shot 2019-09-28 at 10.15.48 PM.png
+   ** 設定後產生：/Users/jasonshih/.config/karabiner/karabiner.json
+   ** /Users/jasonshih/Aware/complex_modifications/Screen Shot 2019-09-28 at 10.15.59 PM.png
+   ** Short cut for Mail import : Preference =&gt; Capture with Option =set=&gt; Ctrl+Shift+G
+   ** Short cut for Safari Clip : System Preference =&gt; keyboard =&gt; Shortcut =&gt; Comm+\
+   
+</note-content></text>
+  <last-change-date>2020-05-27T01:36:15.0160000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-27T01:36:15.0160000+08:00</last-metadata-change-date>
+  <create-date>2020-05-27T01:30:33.6900000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>617</width>
+  <height>497</height>
+  <x>1160</x>
+  <y>361</y>
+  <open-on-startup>False</open-on-startup>
+</note>

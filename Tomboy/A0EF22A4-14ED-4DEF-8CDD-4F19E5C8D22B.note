@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>安裝 Scoop</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>安裝 Scoop</underline>
+ 2020-05-26 00:27:28 
+
+2020/05/19
+From : Rightnote/Howto\Emacs\Win10 Doom emacs\安裝 Scoop
+
+exe, PowerShell as Admin after ADD profile.ps1 for PS
+
+<list><list-item dir="ltr">Set-ExecutionPolicy RemoteSigned -scope CurrentUser</list-item></list>
+<list><list-item dir="ltr">[environment]::setEnvironmentVariable('SCOOP','D:\_Home\scoop','Machine')</list-item></list>
+<list><list-item dir="ltr">$env:SCOOP='D:\_Home\scoop'</list-item></list>
+<list><list-item dir="ltr">$env:userprofile=$Home** 避免：C:\Users\QQ\.config\scoop\config.json** 如此：configHome=D:\_Home\.config</list-item></list>
+<list><list-item dir="ltr">iwr -useb get.scoop.sh | iex</list-item></list>
+<list><list-item dir="ltr">[environment]::setEnvironmentVariable('SCOOP_GLOBAL','D:\_Home\scoop_global','Machine')</list-item></list>
+<list><list-item dir="ltr">$env:SCOOP_GLOBAL='D:\_Home\scoop_global'</list-item></list>
+
+OK ! 2020-05-26 00:39:49 Done!
+
+Original::
+$env:configHome
+C:\Users\QQ\.config
+$env:configFile
+C:\Users\QQ\.config\scoop\config.json
+
+https://fcying.com/scoop-chocolatey-24062/ 
+scoop 安装
+设置powershell
+
+set-executionpolicy remotesigned -s currentuser
+默认安装(安装到C:\Users\&lt;user&gt;\scoop), 在powershell里面运行:
+
+iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+<bold>安装到指定目录</bold>(D:\tool\scoop)
+
+[environment]::setEnvironmentVariable('SCOOP','D:\tool\scoop','User')
+$env:SCOOP='D:\tool\scoop'
+iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+指定-g安装目录(D:\tool\scoop_global)
+
+[environment]::setEnvironmentVariable('SCOOP_GLOBAL','D:\tool\scoop_global','Machine')
+$env:SCOOP_GLOBAL='D:\tool\scoop_global'
+
+https://www.codenong.com/js718f048e3328/ 
+上面的Machine是配置系统变量
+如果使用User就是配置用户变量
+系统变量优先级比用户变量高，所以使用全局下载的变量配置权限高。
+
+https://scoop.sh/
+Make sure PowerShell 5 (or later, include PowerShell Core) and .NET Framework 4.5 (or later) are installed. Then run:
+
+https://github.com/lukesampson/scoop/wiki/Uninstalling-Scoop
+<bold>Uninstalling Scoop</bold>
+Marat Mkhitarayn edited this page on 22 Apr 2019 ·4 revisions
+If you've tried Scoop and it's not for you—no problem. You can uninstall Scoop and all the programs you've installed with Scoop by running:
+
+scoop uninstall scoop
+This will let you know what's going to happen and ask if you're sure—just type 'y' and press enter to confirm.
+
+This command will delete the ~/scoop/persist folder.
+
+https://www.onmsft.com/how-to/how-to-install-and-update-windows-software-with-scoop 
+How to install and update Windows software with Scoop
+To use Scoop:
+
+Install Scoop.
+Run “scoop install program” to install a program named “program”.
+Run “scoop status” to check for outdated programs.
+Run “scoop update” to update outdated programs.
+Run “scoop uninstall program” to remove a program named “program”.
+Applies to All Windows 10 Versions
+
+To install most popular software packages, you’ll need to add the “scoop-extras” bucket to Scoop. Buckets are repositories which contain Scoop package manifests, allowing the program to find and install additional software.
+
+To add the extras bucket, run “scoop bucket add extras” from the Command Prompt. This adds support for dozens of popular programs, including Audacity, Chrome, Firefox, Skype, Slack and VLC. You can install any of them using the “scoop install” command.
+
+If you’re not sure which app you need, or you want to know whether something’s available in scoop, use “scoop search &lt;query&gt;” to search the buckets you’ve added to Scoop.
+
+After installing an update, it’s a good idea to run “scoop cleanup” which can remove old versions of apps. Similarly, “scoop checkup” checks program installations to ensure everything’s working properly – if you’re facing problems with a Scoop app, this may be able to resolve the issue.
+
+</note-content></text>
+  <last-change-date>2020-05-26T00:39:57.9770000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-26T00:39:57.9770000+08:00</last-metadata-change-date>
+  <create-date>2020-05-26T00:39:57.9770000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>617</width>
+  <height>497</height>
+  <x>551</x>
+  <y>327</y>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>網路芳鄰</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>網路芳鄰</underline>
+ 2020-05-26 19:50:30 
+LAN PC 開啓共用，互相存取 file/folder,
+
+網絡和共用中心/進階共用設定/私人(目前):開啓網路探索與檔案共用
+在目的Folder設定進階共用，新增權限使用者(本機帶密碼的)。
+
+均隸屬 workgroup, NO 網域
+另外 services.msc Set: computer browser : 手動
+
+每次修改，reboot 前，均執行 netcfg -d 再重開機。
+
+<bold>Criticle solution</bold>：
+<highlight><bold>netcfg -d</bold></highlight>
+[SOLVED] Windows 10 peer to peer network PCs can ping but not see others in File Explorer - Spiceworks<size:small>
+</size:small>https://community.spiceworks.com/topic/2002141-windows-10-peer-to-peer-network-pcs-can-ping-but-not-see-others-in-file-explorer<size:small>
+ </size:small>
+ipconfig /registerdns<size:small>  /&amp; wait 15min 試過， <highlight><bold>no effect</bold></highlight></size:small>
+
+I am chalking it up to a bad NIC setting that was evidently fixed with the use of "<highlight>netcfg -d</highlight>" which does a complete reset of the NIC settings
+
+<highlight><bold>Computer Name</bold></highlight> : 不可以 Upper/Lower case 混用，UpperCase better。
+
+How to Fix the Windows 10 File Sharing not Working Problem? - Appuals.com
+https://appuals.com/how-to-fix-the-windows-10-file-sharing-not-working-problem/
+舉出多種方案，都試過後，X79PC 還是看不到 gpdmini
+1，<highlight><bold>SMB 1.0/CIFS</bold></highlight> <size:small>File Sharing Support is</size:small> disabled =&gt; enable
+ <size:small> @ 控制台/程式集/開啓或關閉Windows功能 關閉後互聯失敗</size:small>。
+
+2，<size:small>Function Discovery Provider Host and Function Discovery Resource Publication @Services,msc =&gt; 自動(延遲  --&gt; 原為“手動”，改回手動 OK，<highlight><bold>no effect</bold></highlight>
+@Services,msc =&gt; </size:small>computer browser :<size:small> 原為“手動” OK ！</size:small>
+
+3，<size:small>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters
+New &gt;&gt; DWORD (32-bit)named AllowInsecureGuestAuth Value 1 //NO Effect !! 但是，
+GN-PC 看到：\Parameters 底下：  DWORD (32-bit)named <highlight>AuditSmb1Access Value 0</highlight> 加了有效。但 移除後，再 netcfg -d Reboot, 還是可以看到對方。結論：<highlight><bold>no effect</bold></highlight></size:small>
+
+4，<size:small>Disable IPv6 ** IPv4 + IPv6</size:small> @<size:small>Windows + R key type ‘ncpa.cpl’ to open the Internet Connection settings item in Control Panel</size:small>
+** <size:small><highlight><bold>no effect</bold></highlight></size:small> <size:small>by test
+
+</size:small></note-content></text>
+  <last-change-date>2020-05-26T21:15:13.8610000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-26T21:15:13.8610000+08:00</last-metadata-change-date>
+  <create-date>2020-05-26T20:33:05.3110000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>617</width>
+  <height>497</height>
+  <x>308</x>
+  <y>371</y>
+  <open-on-startup>False</open-on-startup>
+</note>

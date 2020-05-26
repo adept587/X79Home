@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>VSCode-markdown</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>VSCode-markdown</underline>
+ 2020-05-27 00:56:20 
+
+use VSCode workspace to handle Typora Folder
+try markdown extension
+
+
+    
+12. Visual Studio Code  
+     // 【DL】https://code.visualstudio.com
+     // 1st open .cpp/.h will popup Command Line Developer Tools 安裝對話框，選 install 即可
+     w/ Command Line Developer Tools 【or/DL】https://developer.apple.com/download/more
+     //=&gt; then install Extensions : C/C++ 0.26.2 from MS, Bracket pair Colorizer, Copy Syntax
+     // **Settings Sync [**github::urcoding // urg 6xxxx7**]
+    ** // 
+     // optional + **OpenInCode**  Finder toolbar app to open current folder in Visual Studio Code
+     // 【DL】https://github.com/sozercan/OpenInCode
+    
+</note-content></text>
+  <last-change-date>2020-05-27T01:32:02.0600000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-27T01:32:02.0600000+08:00</last-metadata-change-date>
+  <create-date>2020-05-27T01:00:07.6440000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>617</width>
+  <height>497</height>
+  <x>551</x>
+  <y>327</y>
+  <open-on-startup>False</open-on-startup>
+</note>

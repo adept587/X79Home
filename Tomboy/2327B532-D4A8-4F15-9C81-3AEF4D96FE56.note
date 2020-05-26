@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Web Clipping</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>Web Clipping</underline>
+ 2020-05-25 12:29:17.173
+
+Elephant 只能閲讀 .html
+Tagspaces 使用 Tagspaces_Web_Clipper_extension
+可選擇 Full/Clip,自動去除 ad, 還可以編輯
+只差沒有留下 Source URL。
+
+** 以下列 Chrome extension 完成
+
+<highlight>Title &amp; Source URL</highlight>
+Firefox/Chrome: copy titles/urls to the clipboard - AutoHotkey Community
+https://www.autohotkey.com/boards/viewtopic.php?t=66246
+
+CHROME
+TabCopy - Chrome Web Store
+https://chrome.google.com/webstore/detail/tabcopy/micdllihgoppmejpecmkilggmaagfdmb
+[pros: title before url, blank lines]
+[cons: no trailing line break]
+
+
+
+</note-content></text>
+  <last-change-date>2020-05-25T14:31:17.3980000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-25T14:31:17.3980000+08:00</last-metadata-change-date>
+  <create-date>2020-05-25T12:29:46.2190000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>617</width>
+  <height>497</height>
+  <x>267</x>
+  <y>470</y>
+  <tags>
+    <tag>system:notebook:Template</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

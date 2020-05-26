@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Cloud Services</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>Cloud Services</underline>
+ 2020-05-25 23:21:54 
+- X79 Installation - MBP-install 
+
+Install Cloud Utilities : **<strikeout> Locate@ Users/Shared/</strikeout> @D:\Cloud_macro
+
+D:\Apps_DL\DropboxInstaller.exe
+【DL】https://www.dropbox.com/install
+ /m/ac: jkvegan@gmail.com //niko rBD db, 
+
+D:\Apps_DL\installbackupandsync.exe
+【DL】https://www.google.com/intl/zh-TW_ALL/drive/download/backup-and-sync/
+ /m/ac: jkvegan@gmail.com //Niko bd jgm
+
+D:\Apps_DL\MEGAsyncSetup.exe
+ 【DL】https://mega.nz/sync
+ /m/ac: quants@outlook.com //mgNiko rBDbd
+
+OneDrive: /s 【Windows 10 default】
+ /s/m/ac: ccjim@msn.com //niko bd
+
+D:\Apps_DL\pCloud_Windows_3.9.2_x86.exe
+ 【DL】 /m/ac: jkyk@outlook.com //jk7003019
+
+<highlight><bold>Mac</bold></highlight> 
+3. Install Cloud Utilities : ** Locate@ Users/Shared/
+   Dropbox: /Users/jasonshih/Aware/4Macs/App_MenuBar/DropboxInstaller.dmg
+   ** 【DL】https://www.dropbox.com/install
+   ** /m/ac: [jkvegan@gmail.com](mailto:jkvegan@gmail.com) //niko rBD db, 
+   GoogleDrive: /Users/jasonshih/Aware/4Macs/App_MenuBar/InstallBackupAndSync.dmg
+   ** 【DL】https://www.google.com/intl/zh-TW_ALL/drive/download/backup-and-sync/
+   ** /m/ac: [jkvegan@gmail.com](mailto:jkvegan@gmail.com) //Niko bd jgm
+   MEGA: /Users/jasonshih/Aware/4Macs/App_MenuBar/MEGAsyncSetup.dmg
+   ** 【DL】https://mega.nz/sync
+   ** /m/ac: [quant@outlook.com](mailto:quant@outlook.com) //mgNiko rBDbd
+   OneDrive: /s 【App Store】
+   ** /s/m/ac: [ccjim@msn.com](mailto:ccjim@msn.com) //niko bd
+   pCloud: /Users/jasonshih/Aware/4Macs/App_MenuBar/pCloud Drive 3.8.4.pkg
+   ** 【DL】
+   ** /m/ac: [jkyk@outlook.com](mailto:jkyk@outlook.com) //jk7003019
+   
+
+
+
+
+</note-content></text>
+  <last-change-date>2020-05-27T01:25:23.6860000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-27T01:25:23.6860000+08:00</last-metadata-change-date>
+  <create-date>2020-05-25T23:49:21.1720000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>661</width>
+  <height>611</height>
+  <x>516</x>
+  <y>181</y>
+  <tags>
+    <tag>system:notebook:Working</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

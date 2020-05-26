@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>chemacs-install</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>chemacs-install</underline>
+ 2020-05-26 00:46:33 
+2020/05/19
+Ref in : Rightnote/Howto\Emacs\Win10 Doom emacs\chemacs
+
+https://github.com/plexus/chemacs/issues/5
+** Fix when emacs not run properly
+
+@D:\_Home 
+Under [PS]：
+<list><list-item dir="ltr">git clone https://github.com/plexus/chemacs.git</list-item></list>
+<list><list-item dir="ltr">cd chemacs.......</list-item></list>
+<list><list-item dir="ltr">.\install.ps1 [COPY C:\Users\Home\chemacs\.emacs to C:\Users\Home]</list-item></list>
+<list><list-item dir="ltr"></list-item></list>
+Under CLI：elevated privileges 
+Clone the Git repository, and run install.sh
+
+$ git clone https://github.com/plexus/chemacs.git
+$ cd chemacs
+$ ./install.sh
+Will Creating symlink ~/.emacs -&gt; /home/arne/chemacs/.emacs
+The install script will symlink ~/.emacs to the Chemacs script. If you already have a ~/.emacs you need to move it out of the way first
+
+**Windows 10 CLI 執行 .sh 失敗 elevated privileges
+按 Win，右點選 Git Bash 以系統管理員執行：
+$ cd chemacs
+$ ./install.sh
+OK ！ 2020-05-26 09:38:3
+
+
+</note-content></text>
+  <last-change-date>2020-05-26T13:32:31.2880000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-26T13:32:31.2880000+08:00</last-metadata-change-date>
+  <create-date>2020-05-26T00:53:35.7250000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>617</width>
+  <height>497</height>
+  <x>534</x>
+  <y>313</y>
+  <open-on-startup>False</open-on-startup>
+</note>

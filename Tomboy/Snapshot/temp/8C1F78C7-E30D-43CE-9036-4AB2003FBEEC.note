@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>elevated privileges</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>elevated privileges</underline>
+ 2020-05-26 09:10:35 
+
+Windows 10 CLI 執行 .sh 失敗 elevated privileges
+
+Ref
+鳥哥的 Linux 私房菜 -- 學習 Shell Scripts
+http://linux.vbird.org/linux_basic/0340bashshell-scripts/0340bashshell-scripts-centos5.php
+
+因爲 Windows 的 CLI 只能執行 .bat .cmd
+必須安裝 unix shell 才可以。
+還好 Git 隨附了 Git Bash,
+按 Win，右點選 Git Bash 以系統管理員執行：
+$ cd chemacs
+$ ./install.sh
+OK ！ 2020-05-26 09:38:31 
+
+Git之右鍵沒有Git Bash Here的解決辦法 - IT閱讀
+https://www.itread01.com/content/1550914866.html 
+
+Ref:
+Context Menu Shell
+
+
+
+
+</note-content></text>
+  <last-change-date>2020-05-26T11:17:02.5870000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-26T11:17:02.5870000+08:00</last-metadata-change-date>
+  <create-date>2020-05-26T11:17:02.5870000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>617</width>
+  <height>497</height>
+  <x>551</x>
+  <y>327</y>
+  <open-on-startup>False</open-on-startup>
+</note>

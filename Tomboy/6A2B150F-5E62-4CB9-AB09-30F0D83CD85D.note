@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Mac-Coding-env</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>Mac-Coding-env</underline>
+ 2020-05-26 23:39:46 
+-&lt; Coding Env -&gt; MBP-install 
+
+<list><list-item dir="ltr">Emacs-for-Mac Check Homebrew emacs 版本，若與安裝版相同，採用 Homebrew安裝</list-item></list>
+<list><list-item dir="ltr">安裝 iTerm2</list-item></list>
+<list><list-item dir="ltr">安裝 Homebrew</list-item></list>
+<list><list-item dir="ltr">安裝 Git</list-item></list>
+<list><list-item dir="ltr">git clone https://github.com/adept587/JSMBdot.git to Local folder then manually move to ~/</list-item></list>
+<list><list-item dir="ltr">安裝 VSCode by Homebrew</list-item></list>
+<list><list-item dir="ltr"></list-item></list>
+<list><list-item dir="ltr">chemacs-install</list-item></list>
+<list><list-item dir="ltr">Doom-install</list-item></list>
+<list><list-item dir="ltr">Doom@chemacs</list-item></list>
+<list><list-item dir="ltr"></list-item></list>
+</note-content></text>
+  <last-change-date>2020-05-27T01:39:08.4720000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-27T01:39:08.4720000+08:00</last-metadata-change-date>
+  <create-date>2020-05-27T01:39:08.4720000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>617</width>
+  <height>497</height>
+  <x>504</x>
+  <y>444</y>
+  <tags>
+    <tag>system:notebook:Working</tag>
+    <tag>system:notebook:mac</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>WIndows 10 剪貼簿管理</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>WIndows 10 剪貼簿管理</underline>
+2020-05-25 09:08:39.701
+https://3c.ltn.com.tw/news/39306
+123 
+
+在 Win 10 電腦上按下「Win 鍵＋V」會跳出剪貼簿，使用者可以先將需要複製的文字，逐一選取並按下 Control+C 複製後，再透過剪貼簿一一貼上。此外，倘若是常用的句子與格式，也能在剪貼簿上的三圓點設定按鈕找到「釘選」，將其固定在剪貼簿最上方，未來即便沒有複製，也可以迅速貼上內容。
+倘若「Win 鍵＋V」無法叫出剪貼簿，則可以進入「設定」-「系統」內「剪貼簿」將功能啟動。若是使用 Android 手機，亦可安裝「微軟桌面」這套 App，可藉由網路連動，讓手機與電腦達成跨裝置同步，共享同一個剪貼簿。簡單來說，電腦端複製的文字內容，就可以直接在手機貼上。
+
+至於 macOS 則沒有內建「剪貼簿」，因此得尋求第三方軟體支援，例如 Clipy、ClipMenu 等等。安裝後，可以透過自訂快捷鍵，呼叫剪貼簿，同樣也可以釘選常用的文字內容。
+</note-content></text>
+  <last-change-date>2020-05-25T11:35:51.1180000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-25T11:35:51.1180000+08:00</last-metadata-change-date>
+  <create-date>2020-05-25T09:13:20.9770000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>657</width>
+  <height>497</height>
+  <x>348</x>
+  <y>480</y>
+  <tags>
+    <tag>system:notebook:Working</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

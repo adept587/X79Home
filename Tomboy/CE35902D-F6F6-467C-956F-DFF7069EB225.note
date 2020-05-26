@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>MBP-install</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>MBP-install</underline>
+ 2020-05-26 23:56:05 
+
+Last-install-Record
+
+<list><list-item dir="ltr">MacOS-Catalina //including user stuff</list-item></list>
+<list><list-item dir="ltr">Tomboy-ng //bf user stuff</list-item></list>
+<list><list-item dir="ltr">restore-backup</list-item></list>
+<list><list-item dir="ltr">restore-VM</list-item></list>
+<list><list-item dir="ltr">Mac-Coding-env ~VSCode</list-item></list>
+<list><list-item dir="ltr">VSCode-markdown </list-item></list>
+<list><list-item dir="ltr">Karabiner-Goku </list-item></list>
+<list><list-item dir="ltr">Chrome  </list-item></list>
+<list><list-item dir="ltr">Tagspaces </list-item></list>
+<list><list-item dir="ltr">Cloud Services </list-item></list>
+<list><list-item dir="ltr"></list-item></list>
+<list><list-item dir="ltr"></list-item></list>
+<list><list-item dir="ltr"></list-item></list>
+
+</note-content></text>
+  <last-change-date>2020-05-27T01:39:54.7750000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-27T01:39:54.7750000+08:00</last-metadata-change-date>
+  <create-date>2020-05-27T01:07:55.1630000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>617</width>
+  <height>497</height>
+  <x>894</x>
+  <y>436</y>
+  <tags>
+    <tag>system:notebook:Working</tag>
+    <tag>system:notebook:mac</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Last-install-Record</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>Last-install-Record</underline>
+ 2020-05-27 01:17:17 
+
+## macOS Catalina Re-install
+
+20191206-2200
+
+
+   
+
+8. EagleFiler /p
+   **【DL】https://c-command.com/eaglefiler/
+   *Serial Name:* Chi-Yuan Shih
+   *Serial Number:* eaglex1001-C989-28TE-F2VH-4F92-FG2U
+   Open Library @/Users/Shared/Dropbox/Eagle
+   
+9. Notability /s/p
+
+10. Service - Add shortcut // in Notes 190224-1702
+    \1. 顯示defaults write com.apple.finder AppleShowAllFiles TRUE;\killall Finder
+    \2. Finder=Go toFolder “/Users/jasonshih/Library/Services/”
+    \3. 進入 TimeMachine，找到以前 Service 裡面的檔案，restore
+    \4. 取消顯示defaults write com.apple.finder AppleShowAllFiles FALSE;\killall Finder
+    
+11. Growly Notes &amp; Write
+     【DL】https://www.growlybird.com
+     @ file:///Users/jasonshih/Aware/4Macs/App_Growlybird/
+
+13. **Sloth ::** displays all open files and sockets in use by all running processes on your system. This makes it easy to inspect which apps are using which files and sockets.
+    【DL】https://sveinbjorn.org/sloth
+    @ [file:///Users/jasonshih/Aware/4Macs/App_Utility/sloth.zip](file:///Users/jasonshih/Aware/4Macs/App_Utility/Sloth-sockets/sloth.zip)
+    
+14. Social Media
+     Line /s /ac: [jkvegan@gmail.com](mailto:jkvegan@gmail.com) //// nk bd BDr
+     Telegram /s /ac: 0910-6xxxx7
+    
+15. Menu Bar Tools
+     Catchmouse /m [file:///Users/jasonshih/Aware/4Macs/App_MenuBar/CatchMouse-master.zip](file:///Users/jasonshih/Aware/4Macs/App_MenuBar/CatchMouse-master.zip)
+     解壓後將 .app 移至 Application Folder，Ctrl+Click Open，於 MenuBar Click，設定 Shortcut
+     帶出 Systempreference 設定畫面，將 Catchmouse 項目移除，再按 + ，從 Application Folder
+     選擇 Catchmouse.app，確定☑️後，即可正常運作。
+     Clipy /m [file:///Users/jasonshih/Aware/4Macs/App_MenuBar/Clipy_1.2.1.dmg](file:///Users/jasonshih/Aware/4Macs/App_MenuBar/Clipy_1.2.1.dmg)
+     ** ⌥⌘V：Main Clipy board ; ⌥⌘B：Snippets 
+     itsycal /m【DL】https://www.mowglii.com/itsycal/
+     [file:///Users/jasonshih/Aware/4Macs/App_MenuBar/Itsycal.zip](file:///Users/jasonshih/Aware/4Macs/App_MenuBar/Itsycal.zip)
+    
+16. Media 
+     IINA //Player 
+    
+17. Brackets【DL】http://brackets.io 2019/12/12
+     for it’s live-preview of HTML &amp; AsciiDOC &amp; color codes picker
+     ** it use Chrome as default browser for preview OR….. Use default Safari.below…
+     ** By ☑️File-Enable Experimental Live Preview，on .html Click ⌥⌘P =&gt; Activate it
+    
+18. Right click 2019/12/26
+
+19. 🍀Dozer //menu bar hidden 2019/12/30 ～2020.04.05
+     ** Dozer icon =&gt; expand part
+     ** Option+Dozer icon =&gt;expand all
+     ** shortcut : **⌃⌥D**
+     2020.04.02 改用：Hide Menu icon from Parallels Toolbox 
+     2020.04.05 加用：**Hiddenbar** ，/s &amp; open source
+     From: https://dwarves.foundation/opensource/
+     https://github.com/dwarvesf/hidden 
+     brew cask install hiddenbar --reinstall _20200410_1019
+    
+20. Acrobat Reader, Pages 2020/1/13
+
+21.  Snipaste 2020/01/23
+
+22. **元大銀行：安裝Super ATM元件
+    ** [**https://superatm.tw/jwss/superatmqa/page05.htm**](https://superatm.tw/jwss/superatmqa/page05.htm)
+
+23. Coding : [QuitSnipAway.app](file:///Users/jasonshih/Library/Services/QuitSnipAway.app/) &amp; [OpenFolderVM.app](file:///Users/jasonshih/Library/Services/OpenFolderVM.app/) for Thor //2020/3/1
+
+24. Move working Notes from GW-Write =&gt; GW-Note=&gt;❓
+
+25. ❓Install Rectangle.app =&gt; WIndow Manager by Hotkey 2020/3/16
+
+26. Install **FiScript** [same author of Dozer] 
+     ** context menu for File/Folder
+     ** It works well after OS restart
+
+27. ♻️Install espanso as Text expander //2020/3/16 ~ _20200411_1355
+     ** It works well after OS restart
+     ** https://espanso.org/docs/get-started/
+     ** https://hub.espanso.org/packages/mac-symbols/
+     ** Edit default.yml =&gt; espanso restart New Match will work !
+     ** brew install espanso // brew uninstall espanso
+     ** =&gt;Uninstalling /usr/local/Cellar/espanso/0.5.3... (3 files, 8MB)
+
+28. ♻️Install Rocket https://matthewpalmer.net/rocket/ **暫停使用** 2020/3/21
+     ** Type :name [name of emoji] to get emoji
+     ** also can trigger Abbr. of espanso Text / Shell Commands
+     ** but emoji first, therefor avoid use emoji name in espanso for Abbr.
+
+29. ♻️Install Typora for better Markdown //2020/3/20 ~2020.04.07
+     ** Get Theme : Barfi, Catfish, Lostkey/dark, Quartz, Xydark/light
+
+30. Install Brave Browser &amp; Caret [Chrome ext.] for AsciiDoc //2020/3/20
+     ** ♻️Caret **試用後移除** 2020/3/21
+
+33. Move Automator Script Editor Scripts from default to MyScript folder
+     ** 💡 .workflow 留在原處
+     ** MyScript folder : 
+     ** Automator : /Users/jasonshih/Library/Services/
+     ** Script Editor : /Users/jasonshih/Library/Mobile\\ Documents/com~apple~ScriptEditor2/Documents/
+     ** ex. file:///Users/jasonshih/Library/Mobile Documents/com~apple~ScriptEditor2/Documents/New Text @.app/
+
+34. Buy &amp; Install HazeOver 2020.03.29 /p
+
+35. Install KeyCastr, //brew cask install keycastr
+     ** System Perferences -&gt; Security &amp; Privacy ✅monitor input
+
+36. Install Fish _20200331_0928\
+     ** % brew install fish
+
+37. Install MenuMeter _20200331_0937
+
+38. Install Anki _20200331_1000
+
+39. Re Install **SnipAway 1.2.6** ♻️**_20200408_1458
+    \****Set SP/App keyboard shortcut: SnipAway/Exit&lt;= Comm+Ctr+=
+    ** Tab_mode + j
+
+40. Git &amp; zsh &amp; iTerm2 2020.04.02
+
+41. SourceTree 2020.04.04
+
+42. Install Hidden &amp; Blurred &amp; Micro sniff /s/m/o
+     [dwarvesf/micro-sniff: An ultra-light macOS utility that notify whenever your micro-device is being used](https://github.com/dwarvesf/micro-sniff)
+     https://github.com/dwarvesf/micro-sniff
+     Micro sniff：此應用程序用於監視您的Mac麥克風活動。
+     like : OverSight // 偵測 FaceTime Camera 的惡意侵入
+
+43. Bitbar /o【DL】w/ pompdoro etc… plugin
+
+44. Apptivate 
+    Launcher
+
+45. ♻️ utls : WInfo, Sizeup, [DL] shareware ~2020.04.09 
+     ** Decide to use [Rectangle], use quote-mode in guru.edn
+
+46. Install nvALT 228128, /m/o/[DL]
+
+47. ♻️Install FSNote /o 2020.04.09 ~ _20200411_1402
+     brew cask install fsnotes
+
+48. install Keep Everything /s 2020.04.09
+     ** 
+
+49. ♻️Uninstall Parallels Toolbox _20200410_0903
+     ** Only 3 months trial company Parallels Desktop purchase
+
+50. Install AppCleaner 3.5 &amp; LiteIcon
+     http://freemacsoft.net/appcleaner/
+
+51. Install Typora // Replace FSNote 2020.04.10
+
+52. Install PhraseExpress // Replace espanso 2020.04.11
+
+53. Install Udeler-1.8.2-mac 2020.05.05
+    after buy Udemy courses in GoLang
+
+54. 
+
+55. Kindle /s //
+    =============================================
+## Good Tools:
+=============================================
+## Mac App Record
+bf: 20191206-1633
+** removed records after being installed success on 20191206-2200 installation.
+/m：MenuBar
+/s：from App Store
+/p：purchased
+/o : open source
+Coding:
+Docker 2020.0106 安裝，2020.04.02 移除
+Visual Studio Code 
+Plugin::  
+[Settings Sync (Shan Khan)](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) keeps my editor preferences consistent regardless of the computer I'm working on.\
+[kakoune](http://kakoune.org/)
+[Xed](https://www.fossmint.com/xed-text-editor-replacement-of-gedit-and-pluma/). And for markdown, it's [Remarkable](https://remarkableapp.github.io/).
+*-Visual Studio 2019 for Mac
+ 【DL】https://visualstudio.microsoft.com/zh-hant/thank-you-downloading-visual-studio-mac/?sku=communitymac&amp;rel=15
+Editor &amp; Notes:
+Brackets http://brackets.io 
+TextMate https://macromates.com 
+- Curiota /s/m
+- FSNotes
+- Mark Text
+- Notenik /s/o ♻️_20200408_1500
+Reader:
+Brave Browser
+Tools &amp; Utilities used :
+**Goku**
+** Karabiner God Mode 
+ ** Install Goku (Karabiner DSL) (brew install yqrashawn/goku/goku)
+Quitter /m【DL】https://marco.org/apps
+ KeyCastr /m【DL】https://github.com/keycastr/keycastr
+key codes :2020.0406 試用後刪除。
+Udeler :: Udemy 課程下載
+Anydesk :: 遠端
+smart converter /s :: 媒體格式轉換
+FilePropertyEdit /s :: 檔案屬性變更
+Image2Icon /s :: 圖檔轉換為 icon 
+kap : capture screen [【DL】https://getkap.co
+*-LICEcap【DL】https://www.cockos.com/licecap/ :: 螢幕擷取=&gt;Gif etc…
+** NEEDLESS ::
+*-Skype /【DL】 https://www.skype.com/zh-Hant/
+*-Signal /?
+Gladys /s/m :: 另類剪貼簿工具
+Manico /s/m ** Launcher &amp; switcher
+\* iZip Unarchiver
+*-Flycut /m :: 剪貼簿工具，已選用 Clipy
+*-Android File Transfer
+\* Uninstaller-OS Cleaner :: Parallels Toolbax 已經提供
+*-Cleaner-app :: 系統清理
+*-TodoTxtMac :: To-Do
+- ExtraInfo Service [same author of nvALT ] 2020.04.09
+APTGTWID.app //亞太
+TaishinBank:
+TaishinBankAgent.app
+CheckTaishinService.app
+[Command Line Tools for Xcode 11.4.dmg](https://download.developer.apple.com/Developer_Tools/Command_Line_Tools_for_Xcode_11.4/Command_Line_Tools_for_Xcode_11.4.dmg)
+248.4 MB
+</note-content></text>
+  <last-change-date>2020-05-27T01:35:50.2630000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-27T01:35:50.2630000+08:00</last-metadata-change-date>
+  <create-date>2020-05-27T01:35:50.2630000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>912</width>
+  <height>872</height>
+  <x>216</x>
+  <y>42</y>
+  <open-on-startup>False</open-on-startup>
+</note>

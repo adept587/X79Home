@@ -13,6 +13,7 @@
 AppData
 doom-emacs
 scoop
+emacs27
 !.*
 !.*/**/*
 !.emacs.d/**/*

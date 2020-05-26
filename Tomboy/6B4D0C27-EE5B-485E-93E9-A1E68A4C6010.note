@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>X79 Installation</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>X79 Installation</underline>
+2020-05-25 00:12:24.902
+
+2020.0523
+全新安裝 ：WinTenPro @DVD &amp; Jet32gbFlash
+
+<highlight><bold>X79</bold></highlight>, 新增/更換硬體裝置均需先做 BIOS Setup, 才可以使用。
+開機後按 ESC, 進入 BIOS Setup，Flash disk 僅USB 2.0 支援開機。
+BIOS ：BOOT 必須先在 [Hard Drive/CD-DVD ROM Drive] BBS Priorities 選擇第一選項
+才會在 Boot Option #1 #2 中出現，以供選擇開機裝置。
+
+BIOS 設定 Jet32gbFlash 開機，/Jet32 竟然在 HDD 類別裡面
+
+全新安裝：WinTenPro，
+Product Key [GN-X60]: VK7JG-NPHTM-C97JM-9MPGT-3V66T
+添加第二鍵盤：中文簡體微軟拼音/與安裝後在添加語言套件並+<highlight>微軟拼音</highlight>/Same
+
+X60 sn 安裝第一次 在 WDC160G，有成功啓動，
+再安裝 Intel SSD 120GB，可安裝，但無法啓動。
+將 WDC 系統分割區 Ghost 到 IntelSSD的同分割區，無法開機，
+使用USB安裝碟開機，進行修護，也失敗。
+Ghost 整個 Disk 也是無法開機。
+** 使用 "C:\Tools\_produkey\W10GenuineTicket\Pro.x64\gatherosstate.exe"
+** 複製到："C:\ProgramData\Microsoft\Windows\ClipSVC\GenuineTicket"下，重新開機，即成功啓用。
+** 啓用以後，<highlight>GenuineTicket.xml</highlight> 就不見了。
+
+
+安裝 all <highlight>X79 Driver</highlight> // NVIDIA first, then main board and Audio
+下載：NVIDIA GeForce 342.01 Driver, 更新
+在  NVIDIA控制面板：顯示/調整桌面顯示位置: Select 全螢幕【#2 LG25 才能自定 2560X1080】
+#1 類比顯示器 #2 VGA TO HDMI，#2安裝 LG LG 25UM57-P，可以自定解析度 2560X1080
+
+設定：<highlight>微軟拼音輸入法</highlight>, 【預設輸入法】，預設：英文，啓用模糊輸入
+使用者 QQ, No Password
+
+<highlight>RegHack</highlight> :
+D:\App_potable\Apps_Aware\RegHack\Add Copy as Path Option in Windows\Add Copy as Path Option.reg
+點右鍵/安裝：D:\App_potable\Apps_Aware\RegHack\OpeninNotepadAsAdmin\OpeninNotepadAsAdmin.inf
+D:\App_potable\Apps_Aware\_WinOSHack_New\右鍵以系統管理員權限開?Cmd\ContexttoOpenCmdAsAdmin.reg
+
+改 <highlight>Powershell Cmd 字型</highlight> 【限：Mono 字型 24/20】，字體：大/中
+下載："D:\App_potable\MicrosoftYaHeiMono-CP950.ttf" Mono 字型
+Title 按右鍵/內容
+
+<highlight>Wall Paper</highlight>：
+Add：D:\App_potable\Apps_Aware\wallpaper\house_paradise_beautiful_palm_trees_balcony_nature_97173_2560x1440.jpg
+=&gt; C:\Windows\Web\Wallpaper\Windows 10
+
+<highlight>cmd_Amd.cmd</highlight> ：在 %Home% 以 Admin 開啟 command prompt 【CLI】
+See:D:\App_potable\Apps_Aware\_WinOSHack_New\右鍵以系統管理員權限開?Cmd\Cmd_as_Ad_Hm.txt
+複製：cmd_Amd.lnk &amp; cmdAdHome.cmd to "C:\ProgramData\Microsoft\Windows\Start Menu" 目錄下
+
+** Win+R：shell:Common Startup，可進入啟動資料夾 [+開機啟動的 .bat .cmd]
+
+本機/內容/進階設定：變<highlight>更電腦名稱</highlight>[X79PC]，啟動系統保護，重新開機，<highlight>建立還原點</highlight> 【001】
+2020.0524.18:18 Ghost Partition to: D:\_Gho\X79WtpPt.gho
+** 使用舊版 Ghost64【on USB-boot】備份系統分隔區，儲存於D:\_Gho,系統 Reboot 後，卻不見，直到第n次Reboot才出現，|
+** 之前 Partition grom image [.gho], 系統也無法開機，可能舊版 Ghost 無法處理 Window10 的備份。
+** 試用 AOMEI Backupper &amp; EaseUS，均不佳。
+** 找到：Open Source <highlight>DISM++</highlight>，備份：D:\_Gho\X79dm001.wim，SIze 比 .gho 小2成。05/24.10：15
+
+ 2020-05-25 11:48:55 
+評估 Note Taking 跨平台 ：決定使用: Tomboy-ng Tagspaces + Chrome
++ Java for Elephant //暫時不使用
+
+<highlight>Line</highlight> ： jkvegan@gmail.com // nk bd BDr
+<highlight>Telegram</highlight> : Ptel // 
+<highlight>Zoom</highlight> : 
+<highlight>iCloud for Windows</highlight> : 登入 Microsoft store/ ccjim@msn.com =&gt; //niko bd
+
+新增帳戶登入密碼 &amp; pin : as mbp, 41bd as fncard
+
+安裝 <highlight>VWware Woukstation</highlight>, 以便開啟：Wes7zh1g / RightNote** 查看並且繼續安裝
+Add VMs.lnk to 
+
+安裝 BgInfo
+
+Potable App：RUT_Use, Snipaste, imageUSB , KDE Mover-Sizer,
+Potable Try： FARR , Keypirinha /launcher, 
+Potable Try yet： Clavier+ /Hotkey, Koffee /Vim Explorer
+Win-R : <highlight>shell:Common Startup</highlight> ,
+launch_at_startup : Keypirinha , 
+Add to Startup folder : KDE Mover-Sizer, FARR , 
+
+Cloud Services 【original in MBP13"】 2020-05-25 23:49:25 !
+
+Coding Env : 
+
+MacType
+D:\App_potable\Apps_Aware\Mactype\MacTypeInstaller_2019.1-beta6.exe
+
+安裝 VWware Woukstation, 以便開啟：Wes7zh1g / RightNote** 查看並且更新本筆記。
+
+移除 VWware Woukstation【試用版】，重新開機，再關機，做 GHO：D:\_Gho\X79WtPro
+執行原安裝檔，選擇：remove
+
+使用者 QQ：pw:as mbp //#1:lucky #2/3:lukang
+</note-content></text>
+  <last-change-date>2020-05-27T01:04:00.7470000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-27T01:04:00.7470000+08:00</last-metadata-change-date>
+  <create-date>2020-05-25T00:19:45.3030000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>863</width>
+  <height>868</height>
+  <x>154</x>
+  <y>144</y>
+  <tags>
+    <tag>system:notebook:Working</tag>
+  </tags>
+  <open-on-startup>True</open-on-startup>
+</note>

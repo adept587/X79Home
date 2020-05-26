@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>環境變數</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>環境變數</underline>
+ 2020-05-26 00:02:10 
+
+$env:HOMEPATH='D:\_Home'
+$env:USERPROFILE='D:\_Home'
+
+Test :
+PS C:\&gt; cd env:
+PS Env:\&gt; ls
+Home                           D:\_Home
+HOMEDRIVE                      C:
+HOMEPATH                       \Users\QQ
+USERPROFILE                    C:\Users\QQ
+
+https://qastack.cn/superuser/82053/setting-home-in-powershell
+<underline><bold>SOLUTION：</bold></underline>
+在您C:\Users\YOUR_USERNAME_HERE\documents的用户帐户的Documents目录（通常为）中，
+创建一个WindowsPowerShell文件夹（命名完全相同）（如果尚不存在）。
+在该文件夹内，创建一个名为profile.ps1的文本文件（确保它不是profile.ps1.txt）。
+
+<underline><bold>profile.ps1：</bold></underline>
+Write-Host "Hi JS, welcome back! $Home and ~\ &gt;&gt; D:\_Home"
+Set-Variable HOME "$env:HOME" -Force
+(get-psprovider 'FileSystem').Home = $env:HOME
+$env:userprofile=$Home
+
+https://dotblogs.com.tw/initials/2019/12/10/115640
+想要使用 cli指令 發生 "因為這個系統上已停用指令碼執行，所以無法載入 C:\Users\user\AppData\Roaming\npm\ng.ps1 檔案"
+可以用系統管理員權限 
+打開 PowerShell  執行 Set-ExecutionPolicy RemoteSigned
+
+再重啓PS
+Test :
+PS C:\&gt; cd env:
+PS Env:\&gt; ls
+Home                           D:\_Home
+HOMEDRIVE                      C:
+HOMEPATH                       \Users\QQ
+USERPROFILE                    D:\_Home
+
+PS C:\Windows\system32&gt; cd ~
+PS D:\_Home&gt;
+
+All Ref : in Rightnote/Howto\Emacs\Win10 Doom emacs\環境變數
+
+
+
+
+</note-content></text>
+  <last-change-date>2020-05-26T00:32:34.3090000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-26T00:32:34.3090000+08:00</last-metadata-change-date>
+  <create-date>2020-05-26T00:26:13.9870000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>682</width>
+  <height>524</height>
+  <x>524</x>
+  <y>482</y>
+  <open-on-startup>False</open-on-startup>
+</note>

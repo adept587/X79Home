@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Tagspaces_Web_Clipper_extension</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>Tagspaces_Web_Clipper_extension</underline>
+ 2020-05-25 10:53:50
+- Tagspaces
+https://docs.tagspaces.org/tutorials/webclipping
+
+<bold>Adding keyboard shortcut to the web clipper in Chrome</bold>
+Open：chrome://extensions/shortcuts
+Set：ctrl+Shift+S
+
+</note-content></text>
+  <last-change-date>2020-05-25T14:41:21.6000000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-25T14:41:21.6000000+08:00</last-metadata-change-date>
+  <create-date>2020-05-25T10:59:56.5200000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>617</width>
+  <height>497</height>
+  <x>308</x>
+  <y>461</y>
+  <tags>
+    <tag>system:notebook:Note Taking</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Elephant</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>Elephant</underline>
+2020-05-25 00:33:21 - Note Taking 跨平臺
+@ Cloud_Storage
+
+Home:
+https://pinktwins.com/elephant
+https://github.com/jusu/Elephant
+Reference：
+https://www.ghacks.net/2020/03/13/elephant-is-an-open-source-cross-platform-note-taking-application/
+Install：
+https://www.java.com/zh_TW/download/
+下載安裝 Java，Click D:\App_trying\Elephant.exe 即可使用
+
+Con :
+Filename: 只能使用英文
+Preference / Character set : UTF-8 Editor 才能使用中文
+Pro：
+在 Chrome 使用 Tagspaces Web Clipper extension
+設定下載位置：Elephant WebClip Notebook
+@ D:\Data\Elephant\WebClip
+
+** 選擇 Cloud Service 後，再更新位置。
+
+ 2020-05-25 12:36:07 
+
+
+ 
+
+
+</note-content></text>
+  <last-change-date>2020-05-25T14:41:15.6660000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-25T14:41:15.6660000+08:00</last-metadata-change-date>
+  <create-date>2020-05-25T00:34:09.8900000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>617</width>
+  <height>497</height>
+  <x>96</x>
+  <y>456</y>
+  <tags>
+    <tag>system:notebook:Note Taking</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

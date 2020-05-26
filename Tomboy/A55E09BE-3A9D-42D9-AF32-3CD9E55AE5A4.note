@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Coding Env</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>Coding Env</underline>
+ 2020-05-25 23:50:57
+
+- Mac-Coding-env
+
+- X79 Installation 
+<list><list-item dir="ltr">設定環境變數：本機/右鍵/內容/進階系統設定  // 系統 的變數 Add：HOME =  D:\_Home</list-item></list>
+<list><list-item dir="ltr">Unzip emacs-27 @D:\_Home\emacs27 + exe as Adm in: D:\_Home\emacs27\bin\addpm.exe</list-item></list>
+<list><list-item dir="ltr">修改 PS $Home 變數 &amp; ~\ 指向。Note： 環境變數 </list-item></list>
+<list><list-item dir="ltr">安裝 Scoop</list-item></list>
+<list><list-item dir="ltr">Scoop install git (2.26.2)</list-item></list>
+<list><list-item dir="ltr">scoop bucket add extras</list-item></list>
+<list><list-item dir="ltr">scoop install vscode   (1.45.1)Add Visual Studio Code as a context menu option by running:"C:\Users\Home\scoop\apps\vscode\current\vscode-install-context.reg"</list-item></list>
+<list><list-item dir="ltr">scoop install ripgrep fd llvm</list-item></list>
+<list><list-item dir="ltr">chemacs-install</list-item></list>
+<list><list-item dir="ltr">Doom-install</list-item></list>
+<list><list-item dir="ltr">Doom@chemacs</list-item></list>
+<list><list-item dir="ltr">Context Menu Shell</list-item></list>
+<list><list-item dir="ltr">Git %Home%</list-item></list>
+<list><list-item dir="ltr"></list-item></list>
+
+</note-content></text>
+  <last-change-date>2020-05-26T23:39:35.0470000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-26T23:39:35.0470000+08:00</last-metadata-change-date>
+  <create-date>2020-05-26T01:15:13.0420000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>617</width>
+  <height>497</height>
+  <x>148</x>
+  <y>462</y>
+  <open-on-startup>False</open-on-startup>
+</note>

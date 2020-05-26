@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Doom-install</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>Doom-install</underline>
+ 2020-05-26 00:54:29 
+- Coding Env 
+2020/05/19
+Ref in : Rightnote/Howto\Emacs\Win10 Doom emacs\doom
+
+<list><list-item dir="ltr">@D:\_Home[PS]  git clone https://github.com/hlissner/doom-emacs .\doom-emacs</list-item></list>
+<list><list-item dir="ltr">Add Path[Machine]: D:\_Home\emacs27\bin &amp; D:\_Home\doom-emacs\bin</list-item></list>
+<list><list-item dir="ltr">$ doom install</list-item></list>
+
+** $ Prompt.....
+Generating envvars file at "~/doom-emacs/.local/env"
+  - Ignoring PROMPT=$P$G
+  - Ignoring Home=D:\_Home
+  [32m Successfully generated "~/doom-emacs/.local/env"
+** $ Prompt.....
+** 補救......
+<list><list-item dir="ltr">Read : D:\_Home\doom-emacs\.local\env</list-item></list>
+<list><list-item dir="ltr">USERPROFILE=C:\Users\QQ</list-item></list>
+<list><list-item dir="ltr">並未改動 %Home%</list-item></list>
+** 補救......
+
+
+
+
+
+
+
+
+
+</note-content></text>
+  <last-change-date>2020-05-26T13:32:52.4130000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-26T13:32:52.4130000+08:00</last-metadata-change-date>
+  <create-date>2020-05-26T13:32:52.4130000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>628</width>
+  <height>495</height>
+  <x>573</x>
+  <y>335</y>
+  <open-on-startup>False</open-on-startup>
+</note>

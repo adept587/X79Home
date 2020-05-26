@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Note Taking 跨平台</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>Note Taking 跨平台</underline>
+2020-05-25 02:39:08
+- X79 Installation
+
+Tagspaces : zip: 解壓直接使用
+Pro：
+TagSpace Web Clip :
+https://docs.tagspaces.org/tutorials/webclipping
+The browser extensions are available for Chrome and Firefox. 
+Saving the current webpage as a single file including the embedded images and styling information in HTML format.
+
+安裝 Chrome
+https://chrome.google.com/webstore/category/extensions
+
+Con：
+筆記寫作介面太差，text preview 字體小，字型無法變更
+僅適合做 File/Folder Tag，實用性不高
+
+tomboy-ng : V0.28b installed
+https://wiki.gnome.org/Apps/Tomboy/tomboy-ng
+Pro：
+與 nupy nvAlt 類似，簡單實用，
+Link 的功能強大，以 Title 自動識別 Link
+快捷鍵功能，適合快速筆記
+可自動識別網址，Click 自動在瀏覽器開啓。
+可以使用 Cloud services，跨3種平臺 Sync.
+Con：
+唯使用特殊的 XML 儲存 data，算是缺點。
+Usage：
+關閉視窗：
+
+Elephant : under Java
+Pro：
+類似 Apple Notes 三欄介面，支援 txt rtf md 三種格式
+檔名末 ~md.txt 或 .md 為markdown，有使用字型變化，自動存 rtf，否則就是 txt
+將網頁存成 .html 放在 Folder，可由 Elephant 開啓唯讀模式。
+實用度比 存 markdown 的 Typora 稍高。
+檔案為原生格式，使用 Cloud Service 可以跨平臺存取。
+Con :
+檔案名稱只能使用英文。
+Preference / Character set : UTF-8 Editor 才能使用中文。
+
+</note-content></text>
+  <last-change-date>2020-05-27T00:24:13.9960000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-27T00:24:13.9960000+08:00</last-metadata-change-date>
+  <create-date>2020-05-25T11:23:20.5850000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>617</width>
+  <height>497</height>
+  <x>552</x>
+  <y>412</y>
+  <tags>
+    <tag>system:notebook:Note Taking</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

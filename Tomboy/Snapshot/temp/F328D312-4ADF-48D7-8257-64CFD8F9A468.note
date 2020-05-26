@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>BgInfo</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>BgInfo</underline>
+ 2020-05-25 20:54:16 
+
+[BgInfo]: 自動在桌布上顯示相關的系統資訊(automatically display system Information on the Desktop)
+http://sharedderrick.blogspot.com/2017/07/bginfo-automatically-display-system.html
+
+在 Windows 桌面上自動顯示：電腦名稱、IP、作業系統、硬體配置等資訊。
+一目了然，無須額外再點選各項工具去查詢這些系統資訊。
+
+BgInfo 是一個輕量級簡單寫入到桌布圖檔後即結束的小程式，無須擔心耗用系統資源，或是干擾到其他應用程式的運行。這是由 Microsoft Windows <highlight>Sysinternals</highlight> 官方所提供的工具。
+
+BgInfo 提供文字編輯器的功能，可以自訂所需文字、系統資訊、插入圖片、WMI Query、VB Script、Environment variable、Registry value等，可整合來客製化所需呈現的資訊。
+
+</note-content></text>
+  <last-change-date>2020-05-25T20:55:36.4100000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-25T20:55:36.4100000+08:00</last-metadata-change-date>
+  <create-date>2020-05-25T20:55:36.4100000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>655</width>
+  <height>497</height>
+  <x>551</x>
+  <y>327</y>
+  <tags>
+    <tag>system:notebook:Working</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

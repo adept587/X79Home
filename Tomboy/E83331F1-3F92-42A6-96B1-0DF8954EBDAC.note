@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>restore-VM</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>restore-VM</underline>
+
+
+6. Install Parallels Desktop /m, w/ Toolbox
+   **【DL】http://www.parallels.com/directdownload/pd15
+   /Users/jasonshih/Aware/4VM/Parallel/ParallelsDesktop-15.1.2-47123.dmg
+   \* Starting… 必須按 Menu Bar icon=&gt;Account &amp; License… 以下列A/C Activate
+   \* OS Restart 後，才可以正常使用。
+   /m/ac: jkpk@outlook.com // nikognc llbd  // Jason Shih
+   **PD15 s/n: S7XR45-W6BRAJ-D5MH89-4J9R39-M4WM9N //Activate Toolbox
+   ** TimeMachine exclude ::
+   == ~/Parallels, /Users/MyStore, /Users/Shared /VMWare /VirtualBox
+   
+</note-content></text>
+  <last-change-date>2020-05-27T01:29:02.7860000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-27T01:29:02.7860000+08:00</last-metadata-change-date>
+  <create-date>2020-05-27T01:29:02.7860000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>617</width>
+  <height>497</height>
+  <x>958</x>
+  <y>344</y>
+  <open-on-startup>False</open-on-startup>
+</note>
