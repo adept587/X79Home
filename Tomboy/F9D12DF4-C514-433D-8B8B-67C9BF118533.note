@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Network_Neighborhood</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>Network_Neighborhood</underline>
+ 2020-05-28 10:45:49 
+- 網路芳鄰 
+1】
+PChucks Network: Fix Network Problems - But Clean Up The Protocol Stack First
+http://networking.nitecruzr.net/2005/05/fix-network-problems-but-clean-up.html
+
+On a properly setup, and standard, system, you should require only the following items in the components list:
+
+Client for Microsoft Networks.
+File and Printer Sharing For Microsoft Networks.
+Internet Protocol (TCP/IP).
+
+Finally, make sure that NetBIOS Over TCP/IP (aka NetBT) is explicitly Enabled (unless you're intentionally using IPX/SPX or NetBEUI, or you're using Directly Hosted SMBs).
+
+2】
+PChucks Network: RestrictAnonymous and Your Server
+http://networking.nitecruzr.net/2005/07/restrictanonymous-and-your-server.html
+Enumeration of your server, and other relationships described above, requires anonymous access.
+
+Look at registry key (spaces added for readability) [HKLM \System \CurrentControlSet \Control \Lsa], value restrictanonymous, on any server with either problem.
+
+For anonymous access to work (for any server to be enumerated by a browser, or for Guest authentication to take place), a server must have a restrictanonymous value of "0". If the value on your server isn't "0", change it and restart the server.
+
+NOTE Only worry about one specific value here: restrictanonymous.
+
+The relevant key node is CurrentControlSet. ControlSet001, ControlSet002, ... are mirrors of that key, and are not relevant, when you're working on this problem.
+
+The relevant value here is restrictanonymous. The peer value, restrictanonymoussam, is not relevant, when you're working on this problem.
+
+Only worry about the restrictanonymous value in the [HKLM \System \CurrentControlSet \Control \Lsa] registry key.
+
+Besides restrictanonymous, though, you might want to be aware of the Hidden, and the <highlight>RestrictNullSessAccess</highlight>, registry settings.
+
+3】
+PChucks Network: Hiding Your Server From Enumeration
+http://networking.nitecruzr.net/2005/05/hiding-your-server-from-enumeration.html
+
+If you don't want your server to be displayed in Network Neighborhood, add a registry value [HKLM \SYSTEM \CurrentControlSet \Services \LanmanServer \Parameters \Hidden]. Make Hidden a DWORD, with value "00000001". This will prevent it from reporting any shares to the browser.
+
+Conversely, if your server isn't showing up in Network Neighborhood, and you want it to show up there, check for that value. If it exists, make sure that it has a value of "00000000", or delete it altogether.
+
+4】-前面3項皆來自本網頁的引述-
+PChucks Network: The NT Browser (or Why can't I always see all of the computers on the LAN?)
+http://networking.nitecruzr.net/2005/04/nt-browser-or-why-cant-i-always-see.html?m=1
+In a workgroup, if you can't control the chaotic environment, which is unlikely, the best thing to do is to<highlight> restrict the number of browsers on the network</highlight>. By doing that, you lessen the possibility of master browser changes and conflicts. So the advice given is generally to use one (or two, with the second being the backup) browsers, and <highlight>turn the service off on all others.</highlight>
+
+<bold>Disable the Computer Browser service</bold> -services.msc
+
+if you wish the browser to run on any computer, Start then Enable the service on that computer.
+
+You can at least identify any browser related problems, using Microsoft's Browstat utility, my troubleshooting guide, Irregularities In Workgroup Visibility, and my brief tutorial, The NT Browser and Windows Networking.
+
+5】-previous 4】來自本網頁的引述-
+Master Browser question - Windows 10 Forums
+https://www.tenforums.com/network-sharing/132661-master-browser-question.html
+ 18 Oct 2019#8
+
+PChucks Network: The NT Browser (or Why can't I always see all of the computers on the LAN?) -- 4】
+
+“ \HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services \Browser\Parameters”, ensure the “MaintainServerList” is set to Yes or Auto
+5.In the same location of registry, ensure that at least one computer in each subnet, has the “IsDomainMaster” REG_SZ key set as True.
+After that, please wait for about 12 minutes and try “net view” again on these Windows 10 computers.
+Also, please open the Network in Explorer, and check if computers will be listed in Network.”
+
+ 20 Oct 2019#14
+
+The standard items to check are:
+1. <highlight>Four services that need to be started automatically</highlight> (as of v1809 this should be the default)
+&gt; Function Discovery Host Provider
+&gt; Function Discovery Resource Publication [this is set as "Automatic (Trigger Start)]
+&gt; C
+&gt; UPnP Device Host
+
+2. If you still have issues, then:
+&gt; Go to "Control Panel" &gt; "Programs and Features" &gt; "Turn Windows features on or off"
+&gt; Under "SMB 1.0/CIFS File Sharing Support", make sure that "SMB 1.0/CIFS Client" is checked.
+&gt; Restart router, then all systems.
+
+NOTE: Microsoft is deprecating this service (SMB 1.0) as it is deemed potentially unsafe. However even their tech people are still recommending this as a possible solution.
+
+3. If issues still persist and your router has the capability of serving as the "Master Browser", set the router as such and restart everything.
+
+Another Link:
+Home network - can't get all PCs to see each other - Page 3 - Windows 10 Forums
+https://www.tenforums.com/network-sharing/150487-home-network-cant-get-all-pcs-see-each-other-3.html
+
+
+
+
+
+
+
+</note-content></text>
+  <last-change-date>2020-05-28T14:22:25.2930000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-28T14:22:25.2930000+08:00</last-metadata-change-date>
+  <create-date>2020-05-28T12:03:35.6060000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>617</width>
+  <height>497</height>
+  <x>358</x>
+  <y>376</y>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Pandoc</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>Pandoc</underline>
+ 2020-05-27 12:57:41 
+
+try to convert markdown in _Typora to org-mode
+
+Pandoc - Installing pandoc
+https://pandoc.org/installing.html
+
+Mac : brew install pandoc
+
+on X79PC try : scoop install pandoc
+'pandoc' (2.9.2.1) was installed successfully!
+
+Pandoc can convert between multiple document formats.
+
+中文使用説明：<size:small>
+介紹好用工具：Pandoc ( 萬用的文件轉換器 ) | The Will Will Web</size:small>
+https://blog.miniasp.com/post/2018/10/06/Useful-tool-Pandoc-universal-document-converter
+
+
+<highlight><bold>Convert</bold></highlight> _Typora\**\*.md ==&gt; _Org\**\*.org
+@Git Bash $ sh convert.sh   // on each subfolder of md file
+by following "convert.sh"<size:small>
+
+directory="D://_org"
+folder=${PWD##*/}
+# current folder ==
+# folder=$(basename "$PWD")
+mkdir -p -- "$directory/$folder"
+FILES=*.md
+for f in $FILES
+do
+  # extension="${f##*.}"
+  filename="${f%.*}"
+  #filename=${f##.*/}
+  #filename=$(basename $f)
+  echo "Converting $f to $filename.org"
+  `pandoc "$f" -t org -o "$directory/$folder/$filename.org"`
+  # uncomment this line to delete the source file.
+  # rm $f
+done</size:small>
+
+Ref ::<size:small>
+<highlight>How to migrate Markdown files to Emacs org mode format</highlight> - Emacs Stack Exchange
+https://emacs.stackexchange.com/questions/5465/how-to-migrate-markdown-files-to-emacs-org-mode-format/5467
+To convert a bunch of Markdown files to org-mode:</size:small>
+for f in `ls *.md`; do 
+  pandoc -f markdown -t org -o ${f}.org ${f}; 
+done<size:small>
+
+把 Markdown 格式的文件转换成 org-mode 格式 - 码农农场</size:small>
+https://behaiku.org/blog/convert-markdown-to-org_mode
+pandoc -f markdown -t org xxxx.md -o xxxx.org<size:small>
+
+
+Shell script for converting a batch of *.md files into *.rst using pandoc.
+https://gist.github.com/hugorodgerbrown/5317616  
+FILES=*.md
+for f in $FILES
+do
+  # extension="${f##*.}"
+  filename="${f%.*}"
+  echo "Converting $f to $filename.rst"
+  `pandoc $f -t rst -o $filename.rst`
+  # uncomment this line to delete the source file.
+  # rm $f
+done
+
+How to output in a different directory? · Issue #1 · dsanson/Pandoc-Droplets-and-Services</size:small>
+https://github.com/dsanson/Pandoc-Droplets-and-Services/issues/1
+
+PATH=$HOME/.cabal/bin:/usr/local/bin:/usr/texbin:$PATH
+directory="$HOME/Documents/PDF"
+for file in "$@"
+do
+    output=${file##.*/}
+    ## /same/ output=$(basename $file)
+    output=${output%%.*}.pdf
+    pandoc "$file" -o "$directory/$output" --latex-engine xelatex
+done<size:small>
+
+shell - Get current directory name (without full path) in a Bash script - Stack Overflow
+https://stackoverflow.com/questions/1371261/get-current-directory-name-without-full-path-in-a-bash-script</size:small>
+$ echo "${PWD##*/}"
+
+
+
+
+</note-content></text>
+  <last-change-date>2020-05-27T20:36:31.5490000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-27T20:36:31.5490000+08:00</last-metadata-change-date>
+  <create-date>2020-05-27T20:36:31.5490000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>930</width>
+  <height>497</height>
+  <x>2026</x>
+  <y>228</y>
+  <tags>
+    <tag>system:notebook:Emacs</tag>
+    <tag>system:notebook:Note Taking</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

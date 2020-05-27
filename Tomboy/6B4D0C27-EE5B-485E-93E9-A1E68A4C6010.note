@@ -82,8 +82,11 @@ Potable App：RUT_Use, Snipaste, imageUSB , KDE Mover-Sizer,
 Potable Try： FARR , Keypirinha /launcher, 
 Potable Try yet： Clavier+ /Hotkey, Koffee /Vim Explorer
 Win-R : <highlight>shell:Common Startup</highlight> ,
-launch_at_startup : Keypirinha , 
-Add to Startup folder : KDE Mover-Sizer, FARR , 
+launch_at_startup : Keypirinha ,
+Add to Startup folder : KDE Mover-Sizer, FARR ,   
+move <highlight>Rightnote</highlight> under D:\App_potable, put note in Dropbox/_Take
+move App Links from Desktop to Start Menu folder  :
+@"C:\ProgramData\Microsoft\Windows\Start Menu"
 
 Cloud Services 【original in MBP13"】 2020-05-25 23:49:25 !
 
@@ -92,24 +95,21 @@ Coding Env :
 MacType
 D:\App_potable\Apps_Aware\Mactype\MacTypeInstaller_2019.1-beta6.exe
 
-安裝 VWware Woukstation, 以便開啟：Wes7zh1g / RightNote** 查看並且更新本筆記。
 
-移除 VWware Woukstation【試用版】，重新開機，再關機，做 GHO：D:\_Gho\X79WtPro
-執行原安裝檔，選擇：remove
 
 使用者 QQ：pw:as mbp //#1:lucky #2/3:lukang
 </note-content></text>
-  <last-change-date>2020-05-27T01:04:00.7470000+08:00</last-change-date>
-  <last-metadata-change-date>2020-05-27T01:04:00.7470000+08:00</last-metadata-change-date>
+  <last-change-date>2020-05-28T14:02:38.4520000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-28T14:02:38.4520000+08:00</last-metadata-change-date>
   <create-date>2020-05-25T00:19:45.3030000+08:00</create-date>
   <cursor-position>1</cursor-position>
   <selection-bound-position>1</selection-bound-position>
   <width>863</width>
   <height>868</height>
-  <x>154</x>
-  <y>144</y>
+  <x>558</x>
+  <y>71</y>
   <tags>
     <tag>system:notebook:Working</tag>
   </tags>
-  <open-on-startup>True</open-on-startup>
+  <open-on-startup>False</open-on-startup>
 </note>

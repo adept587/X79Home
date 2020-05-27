@@ -2,6 +2,42 @@
 <note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
   <title>網路芳鄰</title>
   <text xml:space="preserve"><note-content version="0.1"><underline>網路芳鄰</underline>
+Network Neighborhood
+Network_Neighborhood
+ 2020-05-28 10:08:49 
+Home network - can't get all PCs to see each other - Windows 10 Forums
+https://www.tenforums.com/network-sharing/150487-home-network-cant-get-all-pcs-see-each-other.html
+Download this test http://www.nirsoft.net/utils/netbios_scanner.html 
+run it on all pcs when they are on together does it see all other pc and which is master browser? This often kick thing into life
+
+NetBScanner - NetBIOS scanner
+https://www.nirsoft.net/utils/netbios_scanner.html
+
+找到關鍵論述：
+PChucks Network: The NT Browser (or Why can't I always see all of the computers on the LAN?)
+http://networking.nitecruzr.net/2005/04/nt-browser-or-why-cant-i-always-see.html?m=1
+
+收錄如下：
+Network_Neighborhood
+
+嘗試如下：X79PC &amp; GPDMINI
+regedit : <size:small>
+Remove <highlight>AuditSmb1Access Value 0</highlight>&gt; 
+Add “IsDomainMaster” REG_SZ key set as True @ “ \HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services \Browser\Parameters”
+Check OK ： “ \HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services \Browser\Parameters”, ensure the “MaintainServerList” is set to Yes or Auto</size:small>
+Service: <size:small>
+computer browser : “手動”
+Function Discovery Provider Host and Function Discovery Resource Publication=&gt; 自動(延遲 
+ADD : SSDP Discovery &amp; UPnP Device Host =&gt; 自動(延遲 </size:small>
+disable: SMB 1.0/CIFS <size:small><highlight>computer browser 會自動移除</highlight></size:small>
+
+Reboot 以後，需檢查網絡共用中心，file/prt sharing 有沒有勾選。
+
+CMD as Admin: //X79PC &amp; GPDMINI
+<list><list-item dir="ltr"><highlight>ipconfig /registerdns</highlight></list-item></list><highlight>
+</highlight><list><list-item dir="ltr"><highlight>netcfg -d</highlight></list-item></list><highlight>
+Reboot</highlight>
+
  2020-05-26 19:50:30 
 LAN PC 開啓共用，互相存取 file/folder,
 
@@ -18,7 +54,7 @@ LAN PC 開啓共用，互相存取 file/folder,
 [SOLVED] Windows 10 peer to peer network PCs can ping but not see others in File Explorer - Spiceworks<size:small>
 </size:small>https://community.spiceworks.com/topic/2002141-windows-10-peer-to-peer-network-pcs-can-ping-but-not-see-others-in-file-explorer<size:small>
  </size:small>
-ipconfig /registerdns<size:small>  /&amp; wait 15min 試過， <highlight><bold>no effect</bold></highlight></size:small>
+<highlight>ipconfig /registerdns</highlight><size:small>  /&amp; wait 15min 試過， <highlight><bold>no effect</bold></highlight></size:small>
 
 I am chalking it up to a bad NIC setting that was evidently fixed with the use of "<highlight>netcfg -d</highlight>" which does a complete reset of the NIC settings
 
@@ -32,6 +68,21 @@ https://appuals.com/how-to-fix-the-windows-10-file-sharing-not-working-problem/
 
 2，<size:small>Function Discovery Provider Host and Function Discovery Resource Publication @Services,msc =&gt; 自動(延遲  --&gt; 原為“手動”，改回手動 OK，<highlight><bold>no effect</bold></highlight>
 @Services,msc =&gt; </size:small>computer browser :<size:small> 原為“手動” OK ！</size:small>
+ 2020-05-27 14:12:57 GN-PC 看不到Others，再改自動 ！
+ X79 gpdmini, 改自動後，才看得到自己，但是other 看不到自己。
+ 但是又失效了，決定 3台設定統一。
+ 2020-05-27 22:11:12 
+regedit : 
++<size:small><highlight>AuditSmb1Access Value 0</highlight>&gt; </size:small>
+services.msc<size:small>
+computer browser : “手動”
+Function Discovery Provider Host and Function Discovery Resource Publication=&gt; 自動(延遲 </size:small>
+CMD as Admin: //X79PC &amp; GPDMINI
+<list><list-item dir="ltr"><highlight>ipconfig /registerdns</highlight></list-item></list><highlight>
+</highlight><list><list-item dir="ltr"><highlight>netcfg -d</highlight></list-item></list><highlight>
+</highlight><list><list-item dir="ltr"><highlight>Reboot</highlight></list-item></list><highlight></highlight>
+
+就互相看到，包括self。
 
 3，<size:small>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters
 New &gt;&gt; DWORD (32-bit)named AllowInsecureGuestAuth Value 1 //NO Effect !! 但是，
@@ -40,15 +91,19 @@ GN-PC 看到：\Parameters 底下：  DWORD (32-bit)named <highlight>AuditSmb1Ac
 4，<size:small>Disable IPv6 ** IPv4 + IPv6</size:small> @<size:small>Windows + R key type ‘ncpa.cpl’ to open the Internet Connection settings item in Control Panel</size:small>
 ** <size:small><highlight><bold>no effect</bold></highlight></size:small> <size:small>by test
 
+
 </size:small></note-content></text>
-  <last-change-date>2020-05-26T21:15:13.8610000+08:00</last-change-date>
-  <last-metadata-change-date>2020-05-26T21:15:13.8610000+08:00</last-metadata-change-date>
+  <last-change-date>2020-05-28T15:23:50.3280000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-28T15:23:50.3280000+08:00</last-metadata-change-date>
   <create-date>2020-05-26T20:33:05.3110000+08:00</create-date>
   <cursor-position>1</cursor-position>
   <selection-bound-position>1</selection-bound-position>
-  <width>617</width>
-  <height>497</height>
-  <x>308</x>
-  <y>371</y>
+  <width>636</width>
+  <height>584</height>
+  <x>1073</x>
+  <y>165</y>
+  <tags>
+    <tag>system:notebook:Working</tag>
+  </tags>
   <open-on-startup>False</open-on-startup>
 </note>

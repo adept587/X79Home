@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Markup</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>Markup</underline>
+ 2020-05-27 10:00:31 
+Table of comparision
+
+Lightweight Markup: Markdown, reStructuredText, MediaWiki, AsciiDoc, Org-mode - Hyperpolyglot
+https://hyperpolyglot.org/lightweight-markup
+
+# org-mode
+Org-Mode Is One of the Most Reasonable Markup Languages to Use for Text
+https://karl-voit.at/2017/09/23/orgmode-as-markup-only/
+
+</note-content></text>
+  <last-change-date>2020-05-27T10:18:31.2320000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-27T10:18:31.2320000+08:00</last-metadata-change-date>
+  <create-date>2020-05-27T10:01:09.7050000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>617</width>
+  <height>497</height>
+  <x>551</x>
+  <y>327</y>
+  <tags>
+    <tag>system:notebook:Note Taking</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

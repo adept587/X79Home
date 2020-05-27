@@ -17,21 +17,24 @@ C=q : @Tomboy/ Quit
 C-F4 : @Tomboy/ close window @explorer/ jump to address
 A-F4 : @Tomboy/ @windows/ close window 
 
+Win 10 内建輸入法的快鍵：<highlight>W-Space</highlight>
+可以在 語言/輸入/進階鍵盤設定，取消不必要的快鍵
 
+** Win7 在 控制台/地區語言/鍵盤
 
-
-
- 
+Keypirinha 使用 A-k。
+** Try AHK add New 組合鍵, 也可 等同 A-k
+try : Shortcut Key Explorer  2020-05-27 12:08:09   
 </note-content></text>
-  <last-change-date>2020-05-26T13:47:56.4010000+08:00</last-change-date>
-  <last-metadata-change-date>2020-05-26T13:47:56.4010000+08:00</last-metadata-change-date>
+  <last-change-date>2020-05-28T14:04:19.5750000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-28T14:04:19.5750000+08:00</last-metadata-change-date>
   <create-date>2020-05-26T13:44:24.9760000+08:00</create-date>
   <cursor-position>1</cursor-position>
   <selection-bound-position>1</selection-bound-position>
   <width>617</width>
   <height>497</height>
-  <x>551</x>
-  <y>327</y>
+  <x>216</x>
+  <y>268</y>
   <tags>
     <tag>system:notebook:Working</tag>
   </tags>

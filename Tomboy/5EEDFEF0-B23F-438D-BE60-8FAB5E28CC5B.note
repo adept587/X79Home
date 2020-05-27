@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>AHK</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>AHK</underline>
+ 2020-05-27 12:21:57 
+- kb-win 
+AutoHotkey
+https://www.autohotkey.com/
+DL &amp; install U64 / 編譯的 ahk 無法在 32bit PC 使用
+
+
+<highlight><bold>Map C-Space =&gt; C-W-k</bold></highlight> for keypirinha
+** 啓動時自動執行 **
+D:\_Home\AHK\HotkeyW10.ahk
+; Map Ctrl-Space =&gt; Ctrl-Win-k for keypirinha
+^Space::Send ^#k
+
+Compile 後，建立捷徑，moveto : 啓動 folder
+修改檔案時，只要在原地編譯，捷徑不變。
+
+
+FileSetTime - Syntax &amp; Usage | AutoHotkey
+https://www.autohotkey.com/docs/commands/FileSetTime.htm#YYYYMMDD
+
+The built-in variable <highlight>A_Now</highlight> contains the current local time in the above format. Similarly, <highlight>A_NowUTC</highlight> contains the current Coordinated Universal Time.
+
+How to insert current date into a hotkey - Ask for Help - AutoHotkey Community<size:small>
+</size:small>https://autohotkey.com/board/topic/21387-how-to-insert-current-date-into-a-hotkey/<size:small>
+:R*?:ddd::
+FormatTime, CurrentDateTime,, dd/MM/yy
+SendInput %CurrentDateTime%
+return
+:R*?:xxx::
+FormatTime, CurrentDateTime,, yyMMddHHmmss
+SendInput %CurrentDateTime%
+return</size:small>
+Meaning if you write ddd it will produce 14/09/07
+
+</note-content></text>
+  <last-change-date>2020-05-27T22:54:52.0310000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-27T22:54:52.0310000+08:00</last-metadata-change-date>
+  <create-date>2020-05-27T12:49:43.9030000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>766</width>
+  <height>635</height>
+  <x>105</x>
+  <y>356</y>
+  <open-on-startup>False</open-on-startup>
+</note>

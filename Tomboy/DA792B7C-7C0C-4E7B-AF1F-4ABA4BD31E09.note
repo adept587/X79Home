@@ -8,7 +8,7 @@ Create ~/.emacs-profiles.el** 雙引號裡面的 \ , 必須 使用 \\ 做 escape
 
 取回前次[ 05-21]安裝Doom時，製作的檔案：
 將 整個 %Home% 的 Git clone ?來，再將 05/21 做好的檔案修改 %Home%，複製到 %Home%，
-Git %Home% 
+Git Home
 
 D:\_Home\_CmdLink
 D:\_Home\.emacs-profile
@@ -19,8 +19,8 @@ D:\_Home\chemacs_cmd.txt
 
 
 </note-content></text>
-  <last-change-date>2020-05-26T13:29:59.3800000+08:00</last-change-date>
-  <last-metadata-change-date>2020-05-26T13:29:59.3800000+08:00</last-metadata-change-date>
+  <last-change-date>2020-05-28T19:05:16.4040000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-28T19:05:16.4040000+08:00</last-metadata-change-date>
   <create-date>2020-05-26T13:29:59.3800000+08:00</create-date>
   <cursor-position>1</cursor-position>
   <selection-bound-position>1</selection-bound-position>
