@@ -1,0 +1,29 @@
+
+2020.0522
+
+https://stackoverflow.com/questions/19098101/how-to-open-an-elevated-cmd-using-command-line-for-windows
+
+While both solutions provided by Dheeraj Bhaskar work, unfortunately they will result in the UAC dialog showing up on top (z-order-wise) but not getting focused (the focused window is the caller cmd/powershell window), thus I either need to grab the mouse and click "yes", or to select the UAC window using Alt+Shift+Tab. (Tested on Win10x64 v1607 build14393.447; UAC = "[...] do not dim [...]".)
+
+The following solution is a bit awkward as it uses two files, but it preserves the correct focus order, so no extra mouse / keyboard actions are required (besides confirming the UAC dialog: Alt+Y).
+
+cmdadm.lnk (shortcut properties / Advanced... / Run as administrator = ON) 
+%SystemRoot%\System32\cmd.exe /k "cd /d"
+su.bat 
+@start cmdadm.lnk %cd%
+Run with su.
+
+
+1.右鍵/桌面新增捷徑：cmd_Adm
+2.項目位置：%SystemRoot%\System32\cmd.exe /k "cd /d"
+3.cmd_Addm_ 捷徑/右鍵/内容/進階：勾選 以系統管理員執行
+  移到："C:\ProgramData\Microsoft\Windows\Start Menu" 目錄下
+  "C:\ProgramData\Microsoft\Windows\Start Menu\cmd_Amd.lnk"
+4.建立 cmdAdHome.cmd : Located with cmd_Amd.lnk
+
+@d:
+@cd \_Home
+@start "C:\ProgramData\Microsoft\Windows\Start Menu\cmd_Amd.lnk"
+
+** @cd, @start : 前綴 @，等同 @echo off
+** %cd% , 使得 cmd.exe 在 %Home% 目錄執行，否則會跑到 cmd.exe的原目錄：C:\Windows\system32\

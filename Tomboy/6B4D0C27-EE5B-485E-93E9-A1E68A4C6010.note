@@ -4,6 +4,71 @@
   <text xml:space="preserve"><note-content version="0.1"><underline>X79 Installation</underline>
 2020-05-25 00:12:24.902
 
+2020.0528
+<highlight>全新安裝</highlight> ：WinTenPro @Jet32gbFlash
+
+X79, 新增/更換硬體裝置均需先做 BIOS Setup, 才可以使用。
+開機後按 ESC, 進入 BIOS Setup，Flash disk 僅USB 2.0 支援開機。
+BIOS ：BOOT 必須先在 [Hard Drive/CD-DVD ROM Drive] BBS Priorities 選擇第一選項
+才會在 Boot Option #1 #2 中出現，以供選擇開機裝置。
+
+BIOS 設定 Jet32gbFlash 開機，/Jet32 竟然在 HDD 類別裡面
+
+全新安裝：WinTenPro，點選無金鑰
+添加第二鍵盤：中文簡體微軟拼音/與安裝後在添加語言套件並+微軟拼音/Same
+使用者 QQ, No Password
+** 安裝時 Jet32 占用了 D:磁碟代號，必須移除，原本SDD#2P1代號設爲D:，若不見，必須使用磁碟管理重設。
+
+安裝好以後-<highlight>移植啓用</highlight>
+**D:\X79PC\X79Drivers\_produkey\X79_x60W10_xml\GenuineTicket.xml
+**複製到："C:\ProgramData\Microsoft\Windows\ClipSVC\GenuineTicket"下，重新開機，即成功啓用。
+** 啓用以後，GenuineTicket.xml 就不見了。
+**Product Key [GN-X60]: VK7JG-NPHTM-C97JM-9MPGT-3V66T
+
+安裝 all#3 <highlight>X79 Driver</highlight> // NVIDIA first, then main board and Audio
+下載：NVIDIA GeForce 342.01 Driver, 更新
+
+<highlight>設定</highlight>：微軟拼音輸入法, 【預設輸入法】，預設：英文，選用模糊輸入
+
+<highlight>RegHack</highlight> :
+1.D:\App_potable\Apps_Aware\RegHack\Add Copy as Path Option in Windows\Add Copy as Path Option.reg
+2.點右鍵/安裝：D:\App_potable\Apps_Aware\RegHack\OpeninNotepadAsAdmin\OpeninNotepadAsAdmin.inf
+3.D:\App_potable\Apps_Aware\_WinOSHack_New\Cmd_PS_Git_鼠標右鍵，執行 2 個.reg.
+
+<highlight>Wall Paper</highlight>：
+Add：D:\App_potable\Apps_Aware\wallpaper\house_paradise_beautiful_palm_trees_balcony_nature_97173_2560x1440.jpg
+=&gt; C:\Windows\Web\Wallpaper\Windows 10
+
+點選 explorer/網路，顯示網路探索未開啓，按啓動，設定為私人網路，並<highlight>開啓探索與分享功能</highlight>。
+
+本機/內容/進階設定：啟動系統保護，重新開機，<highlight>建立還原點</highlight> 【001】
+
+安裝 Tomboy-ng
+
+<highlight>安裝捷徑</highlight>：
+D:\X79PC\1_桌面捷徑 複製到桌面 
+D:\X79PC\2_PutInStartupD:\X79PC\2_PutInStartup 複製到 啓動資料夾
+D:\X79PC\3_PotableLnk 複製到 Start Menu@Progdata
+== D:\X79PC\4_NeedInstall 待安裝......==
+執行 啓動資料夾 裏面的 App
+執行Start Menu@Progdata裏面的 Potable App：keypirinha
+測試叫用其他 App OK。
+
+安裝 Cloud Services ，Line , Telegram , Chrome 暫時不登入帳號
+~待建立還原點后，再登入
+將建立在桌面的App捷徑，移動=&gt;C:\Users\QQ\AppData\Roaming\Microsoft\Windows\Start Menu
+
+<highlight>建立還原點</highlight> 【002-before Coding Env】
+
+安裝 Coding Env  :
+
+<highlight>建立還原點</highlight> 【003-before VW】
+
+安裝 Cloud Services 帳戶
+
+安裝 <highlight>VWware Woukstation</highlight>
+ 
+
 2020.0523
 全新安裝 ：WinTenPro @DVD &amp; Jet32gbFlash
 
@@ -61,6 +126,7 @@ See:D:\App_potable\Apps_Aware\_WinOSHack_New\右鍵以系統管理員權限開?C
 ** 之前 Partition grom image [.gho], 系統也無法開機，可能舊版 Ghost 無法處理 Window10 的備份。
 ** 試用 AOMEI Backupper &amp; EaseUS，均不佳。
 ** 找到：Open Source <highlight>DISM++</highlight>，備份：D:\_Gho\X79dm001.wim，SIze 比 .gho 小2成。05/24.10：15
+05-28 網路分享出問題，無法修護，嘗試DISM++還原失敗，只好重新安裝。
 
  2020-05-25 11:48:55 
 評估 Note Taking 跨平台 ：決定使用: Tomboy-ng Tagspaces + Chrome
@@ -70,6 +136,8 @@ See:D:\App_potable\Apps_Aware\_WinOSHack_New\右鍵以系統管理員權限開?C
 <highlight>Telegram</highlight> : Ptel // 
 <highlight>Zoom</highlight> : 
 <highlight>iCloud for Windows</highlight> : 登入 Microsoft store/ ccjim@msn.com =&gt; //niko bd
+
+** 實質意義不大，以後不需安裝，真正需要時，使用網路版本即可。
 
 新增帳戶登入密碼 &amp; pin : as mbp, 41bd as fncard
 
@@ -99,15 +167,15 @@ D:\App_potable\Apps_Aware\Mactype\MacTypeInstaller_2019.1-beta6.exe
 
 使用者 QQ：pw:as mbp //#1:lucky #2/3:lukang
 </note-content></text>
-  <last-change-date>2020-05-28T14:02:38.4520000+08:00</last-change-date>
-  <last-metadata-change-date>2020-05-28T14:02:38.4520000+08:00</last-metadata-change-date>
+  <last-change-date>2020-05-28T23:52:08.6030000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-28T23:52:08.6030000+08:00</last-metadata-change-date>
   <create-date>2020-05-25T00:19:45.3030000+08:00</create-date>
   <cursor-position>1</cursor-position>
   <selection-bound-position>1</selection-bound-position>
   <width>863</width>
-  <height>868</height>
-  <x>558</x>
-  <y>71</y>
+  <height>1008</height>
+  <x>818</x>
+  <y>20</y>
   <tags>
     <tag>system:notebook:Working</tag>
   </tags>

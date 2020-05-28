@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Add_Path</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>Add_Path</underline>
+ 2020-05-29 00:55:32 
+- 安裝 Scoop 
+
+D:\_Home\scoop\shim
+手動新增此路徑=&gt;Path @ Machine[系統變數]
+PS： $env: path
+CLI: echo %path%
+測試 OK。
+
+https://help.github.com/en/actions/reference/workflow-commands-for-github-actions#add-a-system-path-add-path
+
+Adding a system path<size:large>
+
+::add-path::{path}</size:large>
+
+Prepends a directory to the system PATH variable for all subsequent actions in the current job. The currently running action cannot access the new path variable.
+
+Example
+echo "::add-path::/path/to/dir"
+
+Here:
+
+echo "::add-path::D:\_Home\scoop\shims"
+</note-content></text>
+  <last-change-date>2020-05-29T01:05:03.1580000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-29T01:05:03.1580000+08:00</last-metadata-change-date>
+  <create-date>2020-05-29T01:05:03.1580000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>617</width>
+  <height>497</height>
+  <x>741</x>
+  <y>326</y>
+  <open-on-startup>False</open-on-startup>
+</note>

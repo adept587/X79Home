@@ -4,10 +4,18 @@
   <text xml:space="preserve"><note-content version="0.1"><underline>環境變數</underline>
  2020-05-26 00:02:10 
 
+ 2020-05-29 00:00:09 
+複製：D:\Cloud_mac\OneDrive\文件\WindowsPowerShell 資料夾
+＝＞：C:\Users\QQ\Documents　目錄底下／移除 不需的檔案。
+打開 PowerShell  執行 Set-ExecutionPolicy RemoteSigned
+再重啓PSTest : 如下......
+
+
+2020-05-26 00:02:10
+~ 下列設定，重啓PS后失效
 $env:HOMEPATH='D:\_Home'
 $env:USERPROFILE='D:\_Home'
-
-Test :
+<highlight>Test : FAILED</highlight>
 PS C:\&gt; cd env:
 PS Env:\&gt; ls
 Home                           D:\_Home
@@ -50,14 +58,14 @@ All Ref : in Rightnote/Howto\Emacs\Win10 Doom emacs\環境變數
 
 
 </note-content></text>
-  <last-change-date>2020-05-26T00:32:34.3090000+08:00</last-change-date>
-  <last-metadata-change-date>2020-05-26T00:32:34.3090000+08:00</last-metadata-change-date>
+  <last-change-date>2020-05-29T00:08:48.0200000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-29T00:08:48.0200000+08:00</last-metadata-change-date>
   <create-date>2020-05-26T00:26:13.9870000+08:00</create-date>
   <cursor-position>1</cursor-position>
   <selection-bound-position>1</selection-bound-position>
   <width>682</width>
   <height>524</height>
-  <x>543</x>
-  <y>325</y>
+  <x>57</x>
+  <y>137</y>
   <open-on-startup>False</open-on-startup>
 </note>

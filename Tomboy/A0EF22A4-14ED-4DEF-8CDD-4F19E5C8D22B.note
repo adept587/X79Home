@@ -3,19 +3,22 @@
   <title>安裝 Scoop</title>
   <text xml:space="preserve"><note-content version="0.1"><underline>安裝 Scoop</underline>
  2020-05-26 00:27:28 
-
+-- Coding Env 
 2020/05/19
 From : Rightnote/Howto\Emacs\Win10 Doom emacs\安裝 Scoop
 
 exe, PowerShell as Admin after ADD profile.ps1 for PS
-
+<list><list-item dir="ltr">cd ~</list-item></list>
 <list><list-item dir="ltr">Set-ExecutionPolicy RemoteSigned -scope CurrentUser</list-item></list>
 <list><list-item dir="ltr">[environment]::setEnvironmentVariable('SCOOP','D:\_Home\scoop','Machine')</list-item></list>
 <list><list-item dir="ltr">$env:SCOOP='D:\_Home\scoop'</list-item></list>
-<list><list-item dir="ltr">$env:userprofile=$Home** 避免：C:\Users\QQ\.config\scoop\config.json** 如此：configHome=D:\_Home\.config</list-item></list>
+<list><list-item dir="ltr">$env:userprofile=$Home ** 避免：C:\Users\QQ\.config\scoop\config.json** 如此：configHome=D:\_Home\.config</list-item></list>
 <list><list-item dir="ltr">iwr -useb get.scoop.sh | iex</list-item></list>
 <list><list-item dir="ltr">[environment]::setEnvironmentVariable('SCOOP_GLOBAL','D:\_Home\scoop_global','Machine')</list-item></list>
 <list><list-item dir="ltr">$env:SCOOP_GLOBAL='D:\_Home\scoop_global'</list-item></list>
+
+ 2020-05-29 00:55:03 Failed to run scoop
+Add_Path   D:\_Home\scoop\shim 【系統】
 
 OK ! 2020-05-26 00:39:49 Done!
 
@@ -81,14 +84,14 @@ If you’re not sure which app you need, or you want to know whether something�
 After installing an update, it’s a good idea to run “scoop cleanup” which can remove old versions of apps. Similarly, “scoop checkup” checks program installations to ensure everything’s working properly – if you’re facing problems with a Scoop app, this may be able to resolve the issue.
 
 </note-content></text>
-  <last-change-date>2020-05-26T00:39:57.9770000+08:00</last-change-date>
-  <last-metadata-change-date>2020-05-26T00:39:57.9770000+08:00</last-metadata-change-date>
+  <last-change-date>2020-05-29T01:05:35.5930000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-29T01:05:35.5930000+08:00</last-metadata-change-date>
   <create-date>2020-05-26T00:39:57.9770000+08:00</create-date>
   <cursor-position>1</cursor-position>
   <selection-bound-position>1</selection-bound-position>
   <width>617</width>
   <height>497</height>
-  <x>551</x>
-  <y>327</y>
+  <x>1223</x>
+  <y>125</y>
   <open-on-startup>False</open-on-startup>
 </note>

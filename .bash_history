@@ -76,3 +76,11 @@ sh cc.sh
 sh cc.sh
 sh cc.sh
 sh cc.sh
+cd ~
+cd ~/
+$ cd chemacs
+cd chemacs
+./install.sh
+./install.sh
+dir
+git init
