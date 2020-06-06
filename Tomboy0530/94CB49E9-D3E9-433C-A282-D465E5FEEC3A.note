@@ -4,6 +4,24 @@
   <text xml:space="preserve"><note-content version="0.1"><underline>網路芳鄰</underline>
 Network Neighborhood
 Network_Neighborhood
+
+ 2020-05-29 10:23:54 
+X79 因修改網路芳鄰 by regedit &amp; services.msc &amp; 啓閉Windows 功能 造成檔案分享功能無法回復， DISM++ Restore 失敗，只好重灌。
+重灌後，Network Discoyery File sharing 一切正常。
+<highlight>Check </highlight>：Windows 功能 : <highlight><bold>SMB 1.0/CIFS</bold></highlight>全不勾選 , SMB Direct 勾選
+:: SMB Direct 跟分享無關，跟傳輸速度有關
+services.msc : <size:small>computer browser : 不存在
+Function Discovery Provider Host and Function Discovery Resource Publication=&gt; 手動-執行中
+ SSDP Discovery =&gt; 手動-執行中  //   UPnP Device Host =&gt; 手動-尚未執行</size:small>
+regedit : 看起來都是内定值<size:small>
+ \HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services \Browser\Parameters”
+ “IsDomainMaster”  “MaintainServerList” // \Browser <highlight>不存在</highlight>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters
+AuditSmb1Access Value 0 AllowInsecureGuestAuth : 此 2  值 <highlight>不存在</highlight>。
+ [HKLM \System \CurrentControlSet \Control \Lsa] 
+restrictanonymous value 0</size:small>
+網路介面卡：10項内定。
+
  2020-05-28 10:08:49 
 Home network - can't get all PCs to see each other - Windows 10 Forums
 https://www.tenforums.com/network-sharing/150487-home-network-cant-get-all-pcs-see-each-other.html
@@ -93,15 +111,15 @@ GN-PC 看到：\Parameters 底下：  DWORD (32-bit)named <highlight>AuditSmb1Ac
 
 
 </size:small></note-content></text>
-  <last-change-date>2020-05-28T15:23:50.3280000+08:00</last-change-date>
-  <last-metadata-change-date>2020-05-28T15:23:50.3280000+08:00</last-metadata-change-date>
+  <last-change-date>2020-05-29T10:56:27.5770000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-29T10:56:27.5770000+08:00</last-metadata-change-date>
   <create-date>2020-05-26T20:33:05.3110000+08:00</create-date>
   <cursor-position>1</cursor-position>
   <selection-bound-position>1</selection-bound-position>
   <width>636</width>
   <height>584</height>
-  <x>1073</x>
-  <y>165</y>
+  <x>1024</x>
+  <y>151</y>
   <tags>
     <tag>system:notebook:Working</tag>
   </tags>

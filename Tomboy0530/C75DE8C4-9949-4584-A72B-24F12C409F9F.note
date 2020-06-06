@@ -5,6 +5,10 @@
 2020-05-25 11:03:02.835- Note Taking 跨平台 
 @ Cloud_Storage
 
+原來 工作目錄在 D:\_Home\Tomboy
+=&gt; OneDrive // 測試 Mac/PC 共用 Cloud Storage 的效能
+--- 未來可以實測 Dropbox 與 Google Drive
+
 Home:
 https://wiki.gnome.org/Apps/Tomboy/tomboy-ng 
 https://github.com/tomboy-notes/tomboy-ng
@@ -21,15 +25,15 @@ Tested on a Mac Sierra Powerbook. Use the 64bit (Cocoa) DMG file.Install by doub
 
 Note 1 : Because I don't pay a fee to Apple, first time users will need to control click (that is, hold the Control Key down and click) the tomboy-ng icon in Applications and select "Open".
 </note-content></text>
-  <last-change-date>2020-05-27T00:32:35.1680000+08:00</last-change-date>
-  <last-metadata-change-date>2020-05-27T00:32:35.1680000+08:00</last-metadata-change-date>
+  <last-change-date>2020-05-30T10:29:42.5960000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-30T10:29:42.5960000+08:00</last-metadata-change-date>
   <create-date>2020-05-25T11:08:04.8660000+08:00</create-date>
   <cursor-position>1</cursor-position>
   <selection-bound-position>1</selection-bound-position>
   <width>617</width>
   <height>497</height>
-  <x>551</x>
-  <y>327</y>
+  <x>525</x>
+  <y>485</y>
   <tags>
     <tag>system:notebook:Note Taking</tag>
   </tags>

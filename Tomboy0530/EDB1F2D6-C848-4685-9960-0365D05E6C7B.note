@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Windows-Terminal</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>Windows-Terminal</underline>
+ 2020-05-30 11:07:39 
+
+
+
+<highlight><bold>microsoft/terminal</bold></highlight>: The new Windows Terminal and the original Windows console host, all in the same place!
+https://github.com/microsoft/terminal
+DL : D:\Apps_DL\Microsoft.WindowsTerminal_1.0.1401.0_8wekyb3d8bbwe.msixbundle
+
+https://github.com/microsoft/terminal/releases 
+
+or//
+winget install --id=Microsoft.WindowsTerminal -e
+or//
+choco install microsoft-windows-terminal
+choco upgrade microsoft-windows-terminal
+
+
+<highlight><bold>Windows Terminal overview</bold></highlight> | Microsoft Docs
+https://docs.microsoft.com/en-us/windows/terminal/
+
+<highlight><bold>Windows Terminal Command</bold></highlight> Line Arguments | Microsoft Docs
+https://docs.microsoft.com/en-us/windows/terminal/command-line-arguments?tabs=windows
+
+
+
+<highlight><bold>What's the difference</bold></highlight> between a console, a terminal, and a shell? - Scott Hanselman
+https://www.hanselman.com/blog/WhatsTheDifferenceBetweenAConsoleATerminalAndAShell.aspx
+
+<bold>SHELL</bold>
+A shell is the program that the terminal sends user input to. The shell generates output and passes it back to the terminal for display. Here's some examples of Shells:
+
+bash, fish, zsh, ksh, sh, tsch
+PowerShell, pwsh
+cmd, yori, 4dos, command.com
+
+There are a number of shells that ship with Windows.  Those<highlight><bold> shells are all hosted by</bold></highlight> a the <bold>legacy Windows console</bold> you have never heard of called <highlight><bold>conhost.exe.</bold></highlight><bold>
+
+Now, forget that conhost exists, because it sucks - it's super old.
+
+Pseudo Terminals are terminal emulators or software interfaces that emulate terminals. They pretend to be terminals like the ones above. *Nix systems have long had a pseudo-terminal (PTY) infrastructure and now Windows as a pseudoconsole (ConPTY) as well.
+
+Window's new ConPTY interface is the future of consoles and terminals on Windows. If you choose a 3rd party (non-built-in) console applications for Windows, make sure it supports ConPTY and it'll be a better experience than some of the older consoles that use screen scraping or other hacks.
+
+BACK TO YOUR CHOICE OF WINDOWS CONSOLES
+Remembering there's a lot of shells you can use in Windows, there's a lot of 3rd party consoles you can use if you don't like conhost.exe (and you shouldn't).
+
+... ...
+Putty
+MinTTY
+</bold><highlight><bold>Windows Terminal</bold></highlight><bold> (free in Microsoft Store)
+XTermjs - a Typescript component that lets you integrate terminals into your apps
+VSCode includes a Terminal
+Visual Studio 2019 Preview includes a Terminal
+All of these Terminals support ALL the shells above and any shells I've missed. Because a shell isn't a terminal. Pick the one that makes you happy. I use PowerShell Core and Ubuntu in WSL2 in the Windows Terminal.
+
+
+
+</bold></note-content></text>
+  <last-change-date>2020-05-30T11:33:42.5640000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-30T11:33:42.5640000+08:00</last-metadata-change-date>
+  <create-date>2020-05-30T11:33:42.5640000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>617</width>
+  <height>497</height>
+  <x>1158</x>
+  <y>122</y>
+  <open-on-startup>False</open-on-startup>
+</note>

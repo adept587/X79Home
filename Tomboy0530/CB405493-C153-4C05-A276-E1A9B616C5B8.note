@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Window_Backup</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>Window_Backup</underline>
+ 2020-05-29 11:29:07 
+fm- X79 Installation
+
+
+
+
+
+ 2020-05-29 17:00:04 
+使用<highlight><bold>内建 Backup and Restore</bold></highlight> (Windows 7) option 建立備份，
+它自動包含了 D:\ , 可能因? %Home% 在 D:\ 的緣故，所以這個方法<highlight>無法使用</highlight>。
+
+How to make a full backup of your Windows 10 PC | Windows Central
+https://www.windowscentral.com/how-make-full-backup-windows-10
+
+<bold>How to create backup with system image tool on Windows 10</bold>
+The tool allows you to save a backup in different locations, such as inside a network folder or secondary hard drive. However, it's recommended to use a removable storage, which you can easily disconnect and store in a safe place.
+
+To create a full backup of Windows 10 with the system image tool, use these steps:
+
+<list><list-item dir="ltr">Open Settings.</list-item></list>
+<list><list-item dir="ltr">Click on Update &amp; Security.</list-item></list>
+<list><list-item dir="ltr">Click on Backup.</list-item></list>
+<list><list-item dir="ltr">Under the "Looking for an older backup?" section, click the Go to Backup and Restore (Windows 7) option.</list-item></list>
+
+Windows 10 backup settings
+Source: Windows Central
+
+<list><list-item dir="ltr">On the left pane, click the Create a system image option.</list-item></list>
+
+Control Panel system image option
+Source: Windows Central
+
+<list><list-item dir="ltr">Under "Where do you want to save the backup?" select the On a hard disk option.</list-item></list>
+<list><list-item dir="ltr">Using the "On a hard disk" drop-down menu, select the storage location to save the full backup of Windows 10.</list-item></list>
+
+Backup destination option
+Source: Windows Central
+
+<list><list-item dir="ltr">Click the Next button.</list-item></list>
+<list><list-item dir="ltr">Select any additional drives that you may want to include in the backup (if applicable).</list-item></list>
+
+Include drive to be backed up option
+Source: Windows Central
+
+<list><list-item dir="ltr">Click the Next button.</list-item></list>
+<list><list-item dir="ltr">Click the Start backup button.</list-item></list>
+
+Start backup option 
+Source: Windows Central
+
+<list><list-item dir="ltr">Click the No button.</list-item></list>
+
+Quick note: After the process, you'll see an option to create a system repair disc, but because most devices no longer include an optical disk drive, you can skip the prompt. If you ever need to restore a backup, you can use a bootable USB flash drive to access the recovery enviroment.
+
+<list><list-item dir="ltr">Click the Close button.</list-item></list>
+Once you complete the steps, the tool will create a backup of your computer, including everything on the main hard drive as well as system reserved partition, and additional drives that you may have selected during the wizard.
+
+The System Image Backup tool uses the "Shadow Copy" technology that allows backing up files while they're open, and apps are running, which means that you can continue to work during the process.
+
+The last thing left to do is to disconnect the external drive with the backup and store it in a safe place.
+
+<bold>How to restore backup with system image tool on Windows 10</bold>
+To restore a backup on Windows 10, use these steps:
+
+<list><list-item dir="ltr">Connect the backup drive to your computer.</list-item></list>
+<list><list-item dir="ltr">Insert the Windows 10 USB bootable drive (or the disc containing the system repair files) to your device.</list-item></list>
+<list><list-item dir="ltr">Start the device.</list-item></list>
+
+Quick tip: If the computer isn't booting into the Windows Setup wizard, you'll need to change your system's Basic Input/Output System (BIOS) or Unified Extensible Firmware Interface (UEFI) settings. You can use this guide to entering the BIOS/UEFI. However, these settings are different depending on the manufacturer, and even by device model. So make sure to check your computer manufacturer support website for more specific details.
+
+<list><list-item dir="ltr">On the "Windows Setup" page, click the Next button.</list-item></list>
+
+Windows Setup Next Option
+Source: Windows Central
+
+<list><list-item dir="ltr">Click the Repair your computer option from the bottom-left corner.</list-item></list>
+
+Repair your computer option
+Source: Windows Central
+
+<list><list-item dir="ltr">Click the Troubleshoot option.</list-item></list>
+
+Advanced Startup Troubleshoot Option
+Source: Windows Central
+
+<list><list-item dir="ltr">Click the System Image Recovery option.</list-item></list>
+
+System Image Recovery Option 
+Source: Windows Central
+
+<list><list-item dir="ltr">Click on Windows 10 as the target operating system.</list-item></list>
+
+OS list
+Source: Windows Central
+
+<list><list-item dir="ltr">On the "Re-image your computer" page, select the Use the latest available system image option.</list-item></list>
+
+Use the latest available system image option
+Source: Windows Central
+
+Quick tip: You can use the "Select a system image" option, if you have multiple backups, and you're trying to restore an older copy.
+
+<list><list-item dir="ltr">Click the Next button.</list-item></list>
+<list><list-item dir="ltr">(Optional) If you're restoring a backup to a new hard drive, you can also carefully select the Format and repartition disks option before restoring the backup.</list-item></list>
+
+Format and repartition disks option
+Source: Windows Central
+
+Quick tip: If you're selecting this option, you can also use the Exclude disks option to prevent formatting other data drives already connected to your computer.
+
+<list><list-item dir="ltr">Click the Next button.</list-item></list>
+<list><list-item dir="ltr">Click the Finish button.</list-item></list>
+
+Windows 10 begin backup restoration option
+Source: Windows Central
+
+<list><list-item dir="ltr">Click the Yes button.</list-item></list>
+After you complete the steps, the process of recovering your device using a previous backup will start. The time to finish the restoration will depend upon the amount of data and your hardware configuration.
+
+When restoring a device from a backup, you have to be aware that any interruption or failure is likely to prevent the process from completing making the system unusable. To minimize the chances of running into problems, make sure that the laptop is connected to a power source, and in the case of the desktop computer, make sure it's connected to a battery backup.
+
+Once the restoration has been completed, if it's been a while since the last time you created the full backup, it's recommended to go to Settings &gt; Update &amp; Security &gt; Windows Update, and click the Check for Updates button to download the latest security patches.
+
+
+</note-content></text>
+  <last-change-date>2020-05-29T17:00:56.7770000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-29T17:00:56.7770000+08:00</last-metadata-change-date>
+  <create-date>2020-05-29T11:38:32.7020000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>617</width>
+  <height>497</height>
+  <x>1192</x>
+  <y>483</y>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -13,8 +13,8 @@ Option:
 config:
 [app]
 launch_at_startup = yes
-hotkey_run = Alt+k
-hotkey_history = Alt+Win+k
+hotkey_run = Ctrl+Space
+<strikeout>hotkey_history = Alt+Win+k</strikeout>
 hotkey_console = Alt+Win+o
 retain_last_search = yes
 always_on_top = no
@@ -23,8 +23,8 @@ always_on_top = no
 
 
 </note-content></text>
-  <last-change-date>2020-05-28T14:18:46.2080000+08:00</last-change-date>
-  <last-metadata-change-date>2020-05-28T14:18:46.2080000+08:00</last-metadata-change-date>
+  <last-change-date>2020-05-29T12:34:42.2220000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-29T12:34:42.2220000+08:00</last-metadata-change-date>
   <create-date>2020-05-25T21:46:07.6630000+08:00</create-date>
   <cursor-position>1</cursor-position>
   <selection-bound-position>1</selection-bound-position>

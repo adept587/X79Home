@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>CREATE A PROGRESSIVE WEB APP (PWA) FOR NOTES</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>CREATE A PROGRESSIVE WEB APP (PWA) FOR NOTES</underline>
+ 2020-05-29 16:40:09 
+- Cloud Services 
+
+ 2020-05-29 17:24:23 
+建立 C:\Program Files (x86)\Google\Chrome\Application\chrome_proxy.exe
+將桌面捷徑 =&gt; P_Startup_Menu
+
+From :
+Top 3 Ways to Access iPhone Notes on Windows
+https://www.guidingtech.com/access-iphone-notes-windows/
+
+2. CREATE A PROGRESSIVE WEB APP (PWA) FOR NOTES
+If you plan on accessing your iPhone notes regularly, you can make the experience of opening and using the Notes web app much more convenient by forcing it to work as a PWA (progressive web app). For that, you need to use either Google Chrome or the new Microsoft Edge Chromium web browser.
+
+WARNING: Do not do create PWAs on public or shared computers.
+
+Start by logging into iCloud.com. Check the box next to 'Keep me signed in' while inserting your Apple ID credentials, and then click Trust when prompted.
+
+On the iCloud Launchpad, click Notes. After the Notes web app finishes loading, open the Chrome browser menu, point to More Tools, and then click Create Shortcut.
+
+Access Iphone Notes Windows 4
+Check the box next to Open as Window, and then click Create.
+
+Access Iphone Notes Windows 5
+On Edge, open the browser menu, point to Apps, click 'Install this site as an app,' and then click Install.
+
+You can now access Notes by clicking the iCloud Notes icon on the desktop.
+
+Access Iphone Notes Windows 6
+The web app will open in a dedicated Chrome or Edge window without the address bar and offer a very app-like experience. You can view, add, edit, or share notes with no issues.
+
+Access Iphone Notes Windows 7
+Since you chose to stay signed in to iCloud.com (and also trusted your computer), you can easily open Notes using the desktop shortcut and access your iPhone notes whenever you want.
+
+</note-content></text>
+  <last-change-date>2020-05-29T17:25:23.9960000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-29T17:25:23.9960000+08:00</last-metadata-change-date>
+  <create-date>2020-05-29T16:41:42.9170000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>617</width>
+  <height>497</height>
+  <x>1081</x>
+  <y>439</y>
+  <tags>
+    <tag>system:notebook:Working</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

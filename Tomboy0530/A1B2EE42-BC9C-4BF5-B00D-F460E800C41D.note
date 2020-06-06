@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>WIndows mail</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>WIndows mail</underline>
+ 2020-05-29 20:33:49
+
+ - X79 Installation 
+WIndows mail : 新增第2個 yahoo A/C, 前一個會登出。
+在郵件/右鍵：變更信箱同步設定，只勾選郵件，其它選項移除，即可。
+jkcoco@iCloud 雙重認證使用 App專用密碼： / hvgz-amez-qpzd-ddpc
+
+Can I create a shortcut of the system app "Mail" (Outlook - Microsoft Community
+https://answers.microsoft.com/en-us/windows/forum/all/can-i-create-a-shortcut-of-the-system-app-mail/bf289df3-cde6-452b-af26-4e8821265d0a
+
+To create a shortcut for the Mail app, follow these steps:
+Press Windows key + R, type shell:AppsFolder, and then click OK to view this folder.
+Right-click the Mail app and choose Create shortcut from the pop-up menu.
+Windows will recommend placing the shortcut on the desktop.
+
+Mail A/C : 
+<list><list-item dir="ltr">ccjim@msn.com](mailto:ccjim@msn.com) //uqdubksxzqmxgpbe [mail only]</list-item></list>
+<list><list-item dir="ltr">quants@outlook.com](mailto:quants@outlook.com) //gg7003271 [mail only]</list-item></list>
+<list><list-item dir="ltr">Google: [jkvegan@gmail.com](mailto:jkvegan@gmail.com) //Niko bd jgm [mail contacts calendars] </list-item></list>
+<list><list-item dir="ltr">Yahoo! [mail only]: [tainan160@yahoo.com.tw](mailto:tainan160@yahoo.com.tw) //niko BDr [mail only]</list-item></list>
+<list><list-item dir="ltr">jkabc@kimo.com](mailto:jkabc@kimo.com) //km+idless0 [mail only]</list-item></list>
+<list><list-item dir="ltr">jkcoco@icloud.com](mailto:jkcoco@icloud.com) //Niko bd  [mail calendars] App專用密碼：jkcocoap01 / / hvgz-amez-qpzd-ddpc</list-item></list>
+<list><list-item dir="ltr">jkvegan@icloud.com // Niko idBD [mail only] //無雙重認證，無法登入</list-item></list>
+
+</note-content></text>
+  <last-change-date>2020-05-29T20:39:31.6810000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-29T20:39:31.6810000+08:00</last-metadata-change-date>
+  <create-date>2020-05-29T20:39:31.6810000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>617</width>
+  <height>497</height>
+  <x>1101</x>
+  <y>491</y>
+  <open-on-startup>False</open-on-startup>
+</note>

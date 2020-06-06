@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>W10 tune</title>
+  <text xml:space="preserve"><note-content version="0.1"><underline>W10 tune</underline>
+ 2020-05-29 08:43:43 
+fm- X79 Installation  -add- Window_Backup  
+
+Q1 : Windows 10 備份還原驅動程式
+如何在Windows 10中備份和還原驅動程序 - 每日頭條
+https://kknews.cc/zh-tw/news/3b8kra8.html
+雖然此工具允許您導出所有驅動程序，但它無法幫助您將這些驅動程序安裝回Windows。 該命令有一個選項/添加驅動程序，但它可以與Win10 ISO映像一起使用。
+
+原文網址：https://kknews.cc/news/3b8kra8.html
+
+<bold>Q2 : Windows 10 指定程式執行螢幕</bold>
+程式會記得上次開啓的螢幕位置
+將程式開啓后，離開全螢幕狀態[縮小]，Drag 到下次預定開啓的螢幕，關閉。
+下次開啓就會在這個螢幕位置。
+You may try this:
+<list><list-item dir="ltr">Open the application.</list-item></list>
+<list><list-item dir="ltr">Re-size the window so that it is not maximized or minimized.</list-item></list>
+<list><list-item dir="ltr">Move the window to the monitor you want it to open on by default.</list-item></list>
+<list><list-item dir="ltr">Close the application. Do not re-size prior to closing.</list-item></list>
+<list><list-item dir="ltr">Open the application. ...</list-item></list>
+<list><list-item dir="ltr">Maximize the window.</list-item></list>
+
+<highlight>WinKey + P</highlight>
+你可以快速切換：只有主螢幕顯示，二個螢幕同步顯示，
+二個螢幕延伸顯示，只有第二個螢幕顯示。
+
+<highlight>Winkey + Shift + ← 或 →</highlight>(向左鍵，向右鍵)
+可以將工作中視窗，切換由右邊螢幕放置左邊螢幕(Winkey + Shift + ← )，或是由左邊螢幕放置右邊螢幕(Winkey + Shift + →)。
+
+
+<bold>Q3 : Windows 10 檔案總管搜尋快速鍵</bold>
+檔案總管鍵盤快速鍵
+Alt + D    選取網址列
+Ctrl + E    選取搜尋方塊   // Win+S : 工作列搜尋方塊
+Ctrl + F    選取搜尋方塊
+Ctrl + N    開啟新視窗
+Ctrl + W    關閉使用中視窗
+Ctrl + 滑鼠滾輪    變更檔案與資料夾圖示的大小和外觀
+Ctrl + Shift + E    顯示所選資料夾的所有上層資料夾
+Ctrl + Shift + N    建立新的資料夾
+Num Lock + 星號 (*)    顯示所選取資料夾的所有下層子資料夾
+Num Lock + 加號 (+)    顯示所選取資料夾的內容
+Num Lock + 減號 (-)    摺疊選取的資料夾
+Alt + P    顯示預覽面板
+Alt + Enter    開啟所選項目的 [內容] 對話方塊
+Alt + 向右鍵    檢視下一個資料夾
+Alt + 向上鍵    檢視資料夾所在的資料夾
+Alt + 向左鍵    檢視上一個資料夾
+退格鍵    檢視上一個資料夾
+向右鍵    顯示目前的選取項目 (如果已摺疊)，或選取第一個子資料夾
+向左鍵    摺疊目前的選取項目 (如果已展開)，或選取該資料夾所在的資料夾
+End    顯示使用中視窗的底部
+Home    顯示使用中視窗的頂端
+F11    將使用中視窗最大化或最小化
+
+Q4 : How to Run Multiple Dropbox Accounts in Windows 10 - Make Tech Easier
+https://www.maketecheasier.com/run-multiple-dropbox-accounts-windows/
+By Afam Onyimadu / Oct 15, 2018 / Windows
+<list><list-item dir="ltr">Using the Website</list-item></list>
+<list><list-item dir="ltr">Using Shared Folders</list-item></list>
+<list><list-item dir="ltr">Using Multiple Windows Logins</list-item></list>
+--
+Q5 : Windows 10 内定字型 // 似：Yahei ?
+Win-S : ”clear“ 出現: 調整 Clear Type 文字，點選.........
+
+開始菜單」-Windows系統-控制面板-外觀和個性化-字體-點擊左側「調整ClearTyp文本」，勾選「啟用ClearTyp」然後一路下一步，根據自己眼睛的感覺調整就可以了
+原文網址：https://kknews.cc/tech/q4me3bo.html
+小竅門，WIN10系統如何更換預設字型 - ITW01
+https://itw01.com/VIXJMEL.html
+
+<highlight>Windows 7</highlight> 如何使用ClearType文字調整工具，讓螢幕上的文字更清晰，更容易閱讀？ @ 欣宜的居酒屋 :: 隨意窩 Xuite日誌
+https://blog.xuite.net/a241455282/twblog/129094966-Windows+7+%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8ClearType%E6%96%87%E5%AD%97%E8%AA%BF%E6%95%B4%E5%B7%A5%E5%85%B7%EF%BC%8C%E8%AE%93%E8%9E%A2%E5%B9%95%E4%B8%8A%E7%9A%84%E6%96%87%E5%AD%97%E6%9B%B4%E6%B8%85%E6%99%B0%EF%BC%8C%E6%9B%B4%E5%AE%B9%E6%98%93%E9%96%B1%E8%AE%80%EF%BC%9F
+控制台/外觀個人化/字型
+
+
+
+
+</note-content></text>
+  <last-change-date>2020-05-29T11:38:17.8070000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-29T11:38:17.8070000+08:00</last-metadata-change-date>
+  <create-date>2020-05-29T09:26:21.1790000+08:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>617</width>
+  <height>497</height>
+  <x>1190</x>
+  <y>473</y>
+  <tags>
+    <tag>system:notebook:Working</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

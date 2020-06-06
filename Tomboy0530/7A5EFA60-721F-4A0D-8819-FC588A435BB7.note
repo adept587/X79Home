@@ -7,7 +7,7 @@
 
 D:\_Home\scoop\shim
 手動新增此路徑=&gt;Path @ Machine[系統變數]
-PS： $env: path
+PS： $env:path
 CLI: echo %path%
 測試 OK。
 
@@ -26,8 +26,8 @@ Here:
 
 echo "::add-path::D:\_Home\scoop\shims"
 </note-content></text>
-  <last-change-date>2020-05-29T01:05:03.1580000+08:00</last-change-date>
-  <last-metadata-change-date>2020-05-29T01:05:03.1580000+08:00</last-metadata-change-date>
+  <last-change-date>2020-05-30T10:53:22.1200000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-30T10:53:22.1200000+08:00</last-metadata-change-date>
   <create-date>2020-05-29T01:05:03.1580000+08:00</create-date>
   <cursor-position>1</cursor-position>
   <selection-bound-position>1</selection-bound-position>

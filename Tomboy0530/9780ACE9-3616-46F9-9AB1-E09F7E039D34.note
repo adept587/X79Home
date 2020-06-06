@@ -4,6 +4,7 @@
   <text xml:space="preserve"><note-content version="0.1"><underline>kb-win</underline>
  2020-05-26 13:36:53 
 
+- AHK 
 #hotkey #shortcut #fast
 
 <highlight>C</highlight> : ctrl   <highlight>A</highlight> : Alt  <highlight>W</highlight> : Win  <highlight>S</highlight> : Shift
@@ -24,17 +25,35 @@ Win 10 内建輸入法的快鍵：<highlight>W-Space</highlight>
 
 Keypirinha 使用 A-k。
 ** Try AHK add New 組合鍵, 也可 等同 A-k
-try : Shortcut Key Explorer  2020-05-27 12:08:09   
+try : Shortcut Key Explorer  2020-05-27 12:08:09  
+
+
+ 2020-05-29 13:52:10 
+<bold>Show keystrokes on your screen as you type!</bold> ⌨️🖥 - Quick Dev tips by Anubhav Srivastava
+https://devtips.theanubhav.com/posts/keystrokes
+ 
+bfritscher/<highlight><bold>carnac</bold></highlight>: A utility to give some insight into how you use your keyboard
+https://github.com/bfritscher/carnac
+
+PS] scoop install Carnac
+ 2020-05-29 13:52:16  
+
+
+[HotShow 1.0] - OSD Hotkeys for Video Tutorials - Scripts and Functions - AutoHotkey Community
+https://autohotkey.com/board/topic/51641-hotshow-10-osd-hotkeys-for-video-tutorials/
+
+
+
 </note-content></text>
-  <last-change-date>2020-05-28T14:04:19.5750000+08:00</last-change-date>
-  <last-metadata-change-date>2020-05-28T14:04:19.5750000+08:00</last-metadata-change-date>
+  <last-change-date>2020-05-29T13:56:12.5440000+08:00</last-change-date>
+  <last-metadata-change-date>2020-05-29T13:56:12.5440000+08:00</last-metadata-change-date>
   <create-date>2020-05-26T13:44:24.9760000+08:00</create-date>
   <cursor-position>1</cursor-position>
   <selection-bound-position>1</selection-bound-position>
   <width>617</width>
   <height>497</height>
-  <x>216</x>
-  <y>268</y>
+  <x>1179</x>
+  <y>437</y>
   <tags>
     <tag>system:notebook:Working</tag>
   </tags>
